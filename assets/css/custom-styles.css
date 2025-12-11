@@ -5,3 +5,14 @@
   color: inherit;         /* même couleur que le footer */
   margin-top: 0.25rem;
 }
+
+.team-logo-wrapper {
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.team-logo {
+  max-height: 60px;   /* ajuste selon la taille du logo */
+  width: auto;
+  opacity: 0.95;
+}
