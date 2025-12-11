@@ -6,7 +6,13 @@ cover-img: /assets/img/background_picture.png
 cover-img-opacity: 0.5
 ---
 
-# Welcome to the World Where Gaming Became More Than Just Games
+<p style="text-align:center; margin-top:20px; margin-bottom:35px;">
+  <img src="/assets/img/introduction_image.png" 
+       alt="Introduction illustration"
+       style="width:45%; max-width:420px; border-radius:12px; box-shadow:0 8px 22px rgba(0,0,0,0.25);">
+</p>
+
+# Welcome to the world Where gaming became more than just games
 
 <style>
   .intro-block {
@@ -56,13 +62,13 @@ cover-img-opacity: 0.5
     </p>
 
     <p>
-      From the outside, it looked like noise, distraction — maybe even a problem. But inside that room, something very different was happening.
+      From the outside, it looked like noise, distraction and for them, it was definitely a problem. But inside that room, something very different was happening.
     </p>
   </div>
 </div>
 
 <p>
-<strong>Growing up, we all had that moment</strong> — the door half-closed, the headset on, the bright glow of YouTube illuminating our room while our parents sighed in the background.
+<strong>Growing up, we all had that moment : </strong> the door half-closed, the headset on, the bright glow of YouTube illuminating our room while our parents sighed in the background.
 </p>
 
 <p>
@@ -70,7 +76,7 @@ To them, gaming videos were loud, pointless, maybe even worrying. <strong>To us,
 </p>
 
 <p>
-Gamers didn’t just watch videos; they shared tips, jokes, excitement, frustration. They weren’t just viewers — <strong>they were part of something</strong>. A community that felt incredibly real, even through a screen.
+Gamers didn’t just watch videos; they shared tips, jokes, excitement, frustration. They weren’t just viewers, <strong>they were part of something</strong>. A community that felt incredibly real, even through a screen.
 </p>
 
 <p>
@@ -82,6 +88,6 @@ Was the gaming community truly as strong and unique as it felt… or were we sim
 </p>
 
 <p>
-Now that we finally have the tools, the data, and the expertise to step back and analyse YouTube’s ecosystem objectively, we’re ready to uncover the truth — <strong>once and for all</strong>.
+Now that we finally have the tools, the data, and the expertise to step back and analyse YouTube’s ecosystem objectively, we’re ready to uncover the truth.
 </p>
 
