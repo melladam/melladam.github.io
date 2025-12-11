@@ -46,8 +46,6 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-footer-extra:
-  - team-logo.html
 #  email: "someone@example.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
@@ -82,6 +80,8 @@ footer-extra:
 #  untappd: yourname
 #  strava: youruserid
 
+footer-extra:
+  - team-logo.html
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: ""
