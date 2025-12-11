@@ -9,7 +9,7 @@ cover-img-opacity: 0.35
 <p style="text-align:center; margin-top:20px; margin-bottom:35px;">
   <img src="/assets/img/introduction_image.png" 
        alt="Introduction illustration"
-       style="width:700px; border-radius:0px; box-shadow:0 8px 22px rgba(0,0,0,0.25);">
+       style="width:1000px; border-radius:0px">
 </p>
 
 # Welcome to the world Where gaming became more than just games
@@ -30,7 +30,6 @@ cover-img-opacity: 0.35
   .intro-img img {
     width: 100%;
     border-radius: 0px;
-    box-shadow: 0 8px 28px rgba(0,0,0,0.35);
     display: block;
   }
 
