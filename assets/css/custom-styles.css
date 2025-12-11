@@ -1,1 +1,7 @@
-
+/* Harmoniser le "Powered by Beautiful Jekyll" avec le reste du footer */
+.theme-by {
+  font-size: 1rem;        /* même taille que le texte normal */
+  font-family: inherit;   /* même police que le footer */
+  color: inherit;         /* même couleur que le footer */
+  margin-top: 0.25rem;
+}
