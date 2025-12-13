@@ -97,53 +97,88 @@ Now that we finally have the tools, the data, and the expertise to step back and
 </p>
 
 <style>
-  .research-box {
-    max-width: 900px;
-    margin: 0 auto 50px auto;
-    padding: 30px 35px;
-    border: 2px solid #2b8cff;
-    border-radius: 12px;
-    background: rgba(43, 140, 255, 0.05);
+  .frame-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto 60px auto;
   }
 
-  .research-box h2 {
-    margin-top: 0;
-    margin-bottom: 18px;
-    color: #2b8cff;
-    font-size: 1.4rem;
+  .frame-img {
+    width: 100%;
+    display: block;
+  }
+
+  .frame-content {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 80%;
+    height: 64%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: left;
+    padding: 20px 30px;
+
+    /* optional for readability */
+    border-radius: 16px;
+  }
+
+  .frame-content h2 {
     text-align: center;
+    color: #2b8cff;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
   }
 
-  .research-box ul {
+  .frame-content ul {
     margin: 0;
-    padding-left: 20px;
-    line-height: 1.8;
+    padding-left: 22px;
     font-size: 1.05rem;
+    line-height: 1.7;
   }
 
-  .research-box li {
+  .frame-content li {
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .frame-content {
+      top: 14%;
+      left: 6%;
+      width: 88%;
+      height: 72%;
+      font-size: 0.95rem;
+    }
   }
 </style>
 
-<div class="research-box">
-  <h2>Research Questions</h2>
-  <ul>
-    <li>
-      Is the Gaming category on YouTube characterized by stronger user engagement
-      than other content categories?
-    </li>
-    <li>
-      Can interaction patterns between viewers and creators reveal a uniquely
-      cohesive community structure?
-    </li>
-    <li>
-      Are there identifiable sub-communities within Gaming, and how do they differ
-      in terms of engagement and interaction?
-    </li>
-    <li>
-      Does the structure of the Gaming ecosystem support the idea of a “home-like”
-      digital community?
-    </li>
-  </ul>
+
+<div class="frame-container">
+  <img src="/assets/img/research_question.png"
+       alt="Research questions frame"
+       class="frame-img">
+
+  <div class="frame-content">
+    <h2>Research Questions</h2>
+    <ul>
+      <li>
+        Is the Gaming category on YouTube characterized by stronger user engagement
+        than other content categories?
+      </li>
+      <li>
+        Can interaction patterns between viewers and creators reveal a uniquely
+        cohesive community structure?
+      </li>
+      <li>
+        Are there identifiable sub-communities within Gaming, and how do they differ
+        in terms of engagement and interaction?
+      </li>
+      <li>
+        Does the structure of the Gaming ecosystem support the idea of a “home-like”
+        digital community?
+      </li>
+    </ul>
+  </div>
 </div>
