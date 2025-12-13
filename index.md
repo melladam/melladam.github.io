@@ -90,3 +90,60 @@ Was the gaming community truly as strong and unique as it felt… or were we sim
 Now that we finally have the tools, the data, and the expertise to step back and analyse YouTube’s ecosystem objectively, we’re ready to uncover the truth.
 </p>
 
+<p style="text-align:center; margin-top:30px; margin-bottom:20px;">
+  <img src="/assets/img/research_question.png"
+       alt="Research questions illustration"
+       style="width:900px;">
+</p>
+
+<style>
+  .research-box {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    padding: 30px 35px;
+    border: 2px solid #2b8cff;
+    border-radius: 12px;
+    background: rgba(43, 140, 255, 0.05);
+  }
+
+  .research-box h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #2b8cff;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .research-box ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+
+  .research-box li {
+    margin-bottom: 10px;
+  }
+</style>
+
+<div class="research-box">
+  <h2>Research Questions</h2>
+  <ul>
+    <li>
+      Is the Gaming category on YouTube characterized by stronger user engagement
+      than other content categories?
+    </li>
+    <li>
+      Can interaction patterns between viewers and creators reveal a uniquely
+      cohesive community structure?
+    </li>
+    <li>
+      Are there identifiable sub-communities within Gaming, and how do they differ
+      in terms of engagement and interaction?
+    </li>
+    <li>
+      Does the structure of the Gaming ecosystem support the idea of a “home-like”
+      digital community?
+    </li>
+  </ul>
+</div>
