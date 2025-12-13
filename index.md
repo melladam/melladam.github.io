@@ -90,12 +90,6 @@ Was the gaming community truly as strong and unique as it felt… or were we sim
 Now that we finally have the tools, the data, and the expertise to step back and analyse YouTube’s ecosystem objectively, we’re ready to uncover the truth.
 </p>
 
-<p style="text-align:center; margin-top:30px; margin-bottom:20px;">
-  <img src="/assets/img/research_question.png"
-       alt="Research questions illustration"
-       style="width:900px;">
-</p>
-
 <style>
   .frame-container {
     position: relative;
@@ -110,9 +104,9 @@ Now that we finally have the tools, the data, and the expertise to step back and
 
   .frame-content {
     position: absolute;
-    top: 18%;
-    left: 10%;
-    width: 80%;
+    top: 10%;
+    left: 15%;
+    width: 60%;
     height: 64%;
     display: flex;
     flex-direction: column;
