@@ -140,7 +140,7 @@ Now that we finally have the tools, the data, and the expertise to step back and
   @media (max-width: 768px) {
     .frame-content {
       top: 14%;
-      left: 6%;
+      left: 8%;
       width: 88%;
       height: 72%;
       font-size: 0.95rem;
