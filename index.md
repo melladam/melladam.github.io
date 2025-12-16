@@ -105,7 +105,7 @@ Now that we finally have the tools, the data, and the expertise to step back and
   .frame-content {
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 20%;
     width: 60%;
     height: 64%;
     display: flex;
