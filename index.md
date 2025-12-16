@@ -176,3 +176,176 @@ Now that we finally have the tools, the data, and the expertise to step back and
     </ul>
   </div>
 </div>
+
+<!-- ========================= -->
+<!-- How are we going to solve this? (YouNiverse) -->
+<!-- Plug this right after your Research Questions block -->
+<!-- ========================= -->
+
+<style>
+  .solution-wrap {
+    max-width: 1000px;
+    margin: 10px auto 60px auto;
+  }
+
+  .solution-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 18px 0;
+  }
+
+  .solution-card {
+    border-radius: 0px;
+    padding: 26px 28px;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .solution-lead {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+
+  .solution-highlight {
+    font-weight: 700;
+    color: #2b8cff;
+  }
+
+  .solution-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin: 22px 0 10px 0;
+  }
+
+  .metric-box {
+    border-radius: 0px;
+    padding: 14px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(0, 0, 0, 0.12);
+  }
+
+  .metric-num {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #2b8cff;
+    margin: 0 0 4px 0;
+  }
+
+  .metric-label {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  .solution-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 18px 0 18px 0;
+  }
+
+  .solution-list {
+    margin: 0;
+    padding-left: 22px;
+  }
+
+  .solution-list li {
+    margin-bottom: 10px;
+  }
+
+  .solution-note {
+    margin: 16px 0 0 0;
+    opacity: 0.95;
+  }
+
+  @media (max-width: 900px) {
+    .solution-metrics {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .solution-title {
+      font-size: 1.6rem;
+    }
+    .solution-card {
+      padding: 20px 18px;
+      font-size: 1rem;
+    }
+    .solution-metrics {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="solution-wrap">
+  <h1 class="solution-title">How are we going to solve this?</h1>
+
+  <div class="solution-card">
+    <p class="solution-lead">
+      Up to now, we’ve been talking about a feeling — that sense that Gaming on YouTube was
+      <span class="solution-highlight">more than content</span>.
+      But nostalgia isn’t proof. So we decided to do what we couldn’t do as kids:
+      step back, and test it with real evidence.
+    </p>
+
+    <p>
+      Our main tool is <span class="solution-highlight">YouNiverse</span>, a large-scale dataset built from YouTube.
+      Instead of looking at a few famous creators or a couple of viral clips, it captures the platform at
+      community level — so we can observe how categories behave, how audiences interact, and how creators connect.
+    </p>
+
+    <div class="solution-metrics">
+      <div class="metric-box">
+        <p class="metric-num">136k+</p>
+        <p class="metric-label">YouTube channels</p>
+      </div>
+      <div class="metric-box">
+        <p class="metric-num">~72.9M</p>
+        <p class="metric-label">videos (2005 → 2019)</p>
+      </div>
+      <div class="metric-box">
+        <p class="metric-num">Weekly</p>
+        <p class="metric-label">views & subscribers time series (most channels)</p>
+      </div>
+      <div class="metric-box">
+        <p class="metric-num">~449M</p>
+        <p class="metric-label">anonymous users linked to commented videos</p>
+      </div>
+    </div>
+
+    <div class="solution-divider"></div>
+
+    <p>
+      Why does this matter for our question? Because community strength on YouTube isn’t just about views.
+      It’s about <span class="solution-highlight">interaction</span>:
+      who shows up, who returns, who clusters around the same creators, and how tightly those clusters hold together.
+    </p>
+
+    <ul class="solution-list">
+      <li>
+        We compare <span class="solution-highlight">engagement signals</span> across categories
+        (how often viewers interact, and how concentrated those interactions are).
+      </li>
+      <li>
+        We model YouTube as a <span class="solution-highlight">network</span>:
+        channels as nodes, user interactions as links.
+      </li>
+      <li>
+        We detect <span class="solution-highlight">sub-communities</span> inside Gaming and measure how cohesive they are.
+      </li>
+      <li>
+        We check whether Gaming looks structurally different —
+        denser, more interconnected, and more “home-like” than other categories.
+      </li>
+    </ul>
+
+    <p class="solution-note">
+      If Gaming truly is the strongest community, it shouldn’t just be a memory.
+      It should show up in the data as a measurable pattern.
+    </p>
+  </div>
+</div>
+
