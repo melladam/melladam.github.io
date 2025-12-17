@@ -12,7 +12,7 @@ cover-img-opacity: 0.35
        style="width:1000px; border-radius:0px">
 </p>
 
-# Welcome to the world Where gaming became more than just games
+# Welcome to the world where gaming became more than just games
 
 <style>
   .intro-block {
@@ -39,7 +39,7 @@ cover-img-opacity: 0.35
     line-height: 1.7;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     .intro-block {
       flex-direction: column;
     }
@@ -75,11 +75,7 @@ To them, gaming videos were loud, pointless, maybe even worrying. <strong>To us,
 </p>
 
 <p>
-Gamers didn’t just watch videos; they shared tips, jokes, excitement, frustration. They weren’t just viewers, <strong>they were part of something</strong>. A community that felt incredibly real, even through a screen.
-</p>
-
-<p>
-And so the question stayed with us:
+Gamers didn’t just watch videos; they shared tips, jokes, excitement, frustration. They weren’t just viewers, <strong>they were part of something</strong>. A community that felt incredibly real, even through a screen. And so the question stayed with us:
 </p>
 
 <p style="font-weight:700; font-size:1.15rem; color:#2b8cff;">
