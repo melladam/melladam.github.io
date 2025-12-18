@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Is the Gaming community the best community on YouTube ?
-subtitle: Do user interactions and community structure reveal Gaming as YouTube’s strongest category? Can its internal sub-communities be detected and measured?
+subtitle: 
 cover-img: /assets/img/background_picture.png
 cover-img-opacity: 0.35
 ---
@@ -154,20 +154,22 @@ Now that we finally have the tools, the data, and the expertise to step back and
     <h2>Research Questions</h2>
     <ul>
       <li>
-        Is the Gaming category on YouTube characterized by stronger user engagement
-        than other content categories?
+        Are there real differences in the users' interactions with videos between categories ? What kind ?
       </li>
       <li>
-        Can interaction patterns between viewers and creators reveal a uniquely
-        cohesive community structure?
+        Are there real differences in the users' interactions with channels between cateogries ? What kind ?
       </li>
       <li>
-        Are there identifiable sub-communities within Gaming, and how do they differ
-        in terms of engagement and interaction?
+        Are there categories' communities that are tighter than others ? How so ?
       </li>
       <li>
-        Does the structure of the Gaming ecosystem support the idea of a “home-like”
-        digital community?
+        Are there categories that are more dynamic than others ? How so ?
+      </li>
+      <li>
+       Is it possible to identify one or different cultures, as well as their importance, emanating from those categories ?
+      </li>
+      <li>
+      Is it possible to identify and quantify the communities within the categories ?
       </li>
     </ul>
   </div>
@@ -281,7 +283,7 @@ Now that we finally have the tools, the data, and the expertise to step back and
 
   <div class="solution-card">
     <p class="solution-lead">
-      Up to now, we’ve been talking about a feeling — that sense that Gaming on YouTube was
+      Up to now, we’ve been talking about a feeling : that sense that Gaming on YouTube was
       <span class="solution-highlight">more than content</span>.
       But nostalgia isn’t proof. So we decided to do what we couldn’t do as kids:
       step back, and test it with real evidence.
@@ -290,7 +292,7 @@ Now that we finally have the tools, the data, and the expertise to step back and
     <p>
       Our main tool is <span class="solution-highlight">YouNiverse</span>, a large-scale dataset built from YouTube.
       Instead of looking at a few famous creators or a couple of viral clips, it captures the platform at
-      community level — so we can observe how categories behave, how audiences interact, and how creators connect.
+      community level, so we can observe how categories behave, how audiences interact, and how creators connect.
     </p>
 
     <div class="solution-metrics">
