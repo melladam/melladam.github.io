@@ -345,3 +345,13 @@ Now that we finally have the tools, the data, and the expertise to step back and
   </div>
 </div>
 
+---
+
+## Project in order
+
+- Pre-processing explained to deal with large dataset
+- ML clustering?
+- Hypothesis Testing
+- Results from P2 (adapted to the new data pre-process?)
+  
+
