@@ -139,7 +139,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   .frame-content ul {
     margin: 0;
     padding-left: 22px;
-    font-size: 0.90rem;
+    font-size: 1rem;
     line-height: 1.50;
   }
 
@@ -409,7 +409,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </div>
 
 <div class="plotly-block">
-  {% include spikes_universal_scatter.html.html%}
+  {% include spikes_universal_scatter.html%}
 </div>
 
 
