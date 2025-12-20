@@ -388,6 +388,9 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   {% include donuts_plotly_snippet.html %}
 </div>
 
+<div class="plotly-block">
+  {% include spike_concentration_plot.html%}
+</div>
 
 
 
