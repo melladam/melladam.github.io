@@ -396,6 +396,23 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   {% include quarterly_dashboard_all_categories.html%}
 </div>
 
+<div class="plotly-block">
+  {% include spikes_frequency_bar.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_tail_scatter.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_totalviews_scatter.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_universal_scatter.html.html%}
+</div>
+
+
 
   
 
