@@ -338,6 +338,99 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   </div>
 </div>
 
+
+<!-- SIMPLE BLOCK 1 -->
+<h2 class="simple-title">First, a bird’s-eye view of YouTube (2015–2019)</h2>
+<p>
+  Before we dive into “community strength”, we start with something simpler: <strong>scale</strong>.
+  Who dominates YouTube in raw volume? Who owns the biggest slice of attention?
+</p>
+<p>
+  The donut charts below give a quick map of the platform: how total <strong>views</strong>,
+  <strong>subscribers</strong>, and <strong>channels</strong> are distributed across categories.
+  Think of it as the background context for everything that follows.
+</p>
+<p>
+  This matters because the “best” community shouldn’t just be the loudest.
+  A category can be huge and still feel disconnected; another can be smaller but much more interactive.
+  So we treat these totals as a starting point — not a verdict.
+</p>
+
+<!-- SIMPLE BLOCK 2 -->
+<h2 class="simple-title">Then, we switch from totals to <em>dynamics</em></h2>
+<p>
+  Totals are static. Communities are alive.
+  To see whether Gaming behaves like a strong community, we need to watch how it changes over time:
+  when it grows, how fast it reacts, and whether it keeps momentum.
+</p>
+<p>
+  That’s what the interactive dashboard does: it aggregates the YouNiverse time series at the
+  <strong>quarter</strong> level and lets you compare categories with the same lens.
+</p>
+
+<ul class="simple-list">
+  <li><strong>Channels:</strong> how many channels are active in that category over time</li>
+  <li><strong>Videos:</strong> how much content gets published per quarter</li>
+  <li><strong>Views:</strong> how audience attention evolves across quarters</li>
+</ul>
+<p>
+  If Gaming is truly “the best community”, we should see more than a big number:
+  we should see a <strong>consistent and resilient trajectory</strong>.
+</p>
+
+<!-- SIMPLE BLOCK 3 -->
+<h2 class="simple-title">How to read the time-series dashboard</h2>
+<p>
+  The dropdown lets you choose a category (Gaming, Music, Entertainment, …) and how to interpret change over time.
+  We use quarterly aggregation because weekly data is extremely noisy at this scale.
+</p>
+<p>
+  You’ll see two complementary perspectives:
+  <strong>delta</strong> (what’s added during the quarter) versus <strong>stock</strong>
+  (the level observed at that time, like a snapshot).
+</p>
+<p>
+  A quick intuition: delta is “activity this quarter”; stock is “where the category stands right now”.
+  Both are useful — one captures bursts and reactions, the other captures long-term growth.
+</p>
+
+<!-- SIMPLE BLOCK 4 -->
+<h2 class="simple-title">What we’re looking for in Gaming</h2>
+<p>
+  Our claim isn’t just “Gaming is big”. Our claim is: <strong>Gaming is cohesive and interactive</strong>.
+  The time series helps us test the first half of that statement: does the category show strong, sustained activity?
+</p>
+<p>
+  Concretely, we expect Gaming to combine:
+  frequent content output, a large active creator base, and strong audience attention — without collapsing outside a few peaks.
+</p>
+
+<ul class="simple-list">
+  <li><strong>Stability:</strong> growth that doesn’t rely on one short spike</li>
+  <li><strong>Responsiveness:</strong> visible jumps around major game releases or events</li>
+  <li><strong>Retention:</strong> views remain high even when uploads fluctuate</li>
+</ul>
+<p>
+  If these patterns appear consistently, Gaming looks less like a random collection of videos
+  and more like a category with an “engine”.
+</p>
+
+<!-- SIMPLE BLOCK 5 -->
+<h2 class="simple-title">A note on scope (and why it’s still fair)</h2>
+<p>
+  To keep the analysis tractable, we focus on the <strong>top 100 channels per category</strong>.
+  This is not a perfect mirror of all of YouTube — but it’s a meaningful proxy for how the “core” of each category behaves.
+</p>
+<p>
+  Also, our time-series window is limited (roughly 2016–2019 for consistent coverage).
+  That means we’re judging communities in a specific era of YouTube — which is exactly the period most of us grew up with.
+</p>
+<p>
+  Later in the project, we’ll go beyond growth curves and test the true “community” idea directly,
+  by building comment-based links between channels and measuring how tightly the category connects from the inside.
+</p>
+
+
 <!-- Simple repeatable block -->
 <h2 class="simple-title">Title</h2>
 <p>Paragraph 1.</p>
