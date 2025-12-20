@@ -397,12 +397,12 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   The graph illustrate that Gaming is <strong>reactive</strong> (as it spikes) and <strong>stable</strong> (as it keeps growing).
 </p>
 <p>
-  <strong>Views climb sharply over time</strong>. Instead of a slow, flat progression, the curve rises quickly,
+  <strong>Views climb sharply over time:</strong> instead of a slow, flat progression, the curve rises quickly,
   which means Gaming keeps capturing new attention quarter after quarter. This is what we expect from a category
   that has become mainstream: more creators join in, more viewers show up, and the audience keeps expanding.
 </p>
 <p>
-  <strong>Uploads don’t follow a perfectly smooth rhythm</strong>. The number of videos posted per quarter goes up and down,
+  <strong>Uploads don’t follow a perfectly smooth rhythm:</strong> The number of videos posted per quarter goes up and down,
   which is normal for a fast-moving ecosystem: production often follows external timing (big releases, seasonal periods,
   major online trends), and creators adapt their output accordingly. What matters is that even with these variations,
   Gaming continues to accumulate views and stay active.
@@ -413,6 +413,37 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   (its quarterly changes keep moving upward), then it already looks like a category powered by a strong creator base
   and a loyal audience. 
 </p>
+<p>
+  Now that we have the <strong>big picture</strong>, we can zoom in and <strong>compare categories</strong> by looking at how their
+  time series evolve—i.e., how their deltas rise, fall, or stabilize over time.
+</p>
+
+<h3>Defining “Spikes” to Compare Categories Fairly</h3>
+<p>
+  To make that comparison fair, we also introduced a simple idea: a <strong>spike</strong>. In practice, a spike is a week where a
+  category suddenly “jumps” far above its usual level. We first define what a <em>normal</em> week looks like for each category
+  (using its typical weekly view gain), and then we flag the weeks that are at least <strong>2× higher</strong> than that baseline.
+  Once those spike weeks are identified, we can ask a more interesting question: when a category surges, is it because the whole
+  ecosystem moves together, or because a handful of channels (sometimes even one) captures most of the extra views?
+</p>
+
+<div class="plotly-block">
+  {% include spike_concentration_plot.html%}
+</div>
+
+<p>
+  The interactive chart below zooms in on those <strong>spike weeks</strong> and asks a simple question: when a category spikes,
+  <em>how concentrated is that spike?</em> For every week flagged as a spike, we compute the share of that week’s
+  <strong>delta views</strong> captured by the <strong>top 10 channels</strong> in the category. Each dot is one spike week,
+  and the box summarizes the distribution (median and spread) across all spike weeks for that category.
+</p>
+<p>
+  Interpreting it is straightforward: a <strong>higher</strong> top-10 share means spikes are often driven by a small set of
+  big channels; a <strong>lower</strong> share means the surge is more broadly shared across creators. In our case,
+  <strong>Gaming stands out with the lowest median</strong> top-10 share (around <strong>~11%</strong>), which is exactly what
+  you’d expect from a category supported by a deep bench of creators rather than a few “spike-makers”.
+</p>
+
 
 
 <!-- Simple repeatable block -->
