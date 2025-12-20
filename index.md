@@ -114,7 +114,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
   .frame-content {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 15%;
     width: 70%;
     height: 64%;
