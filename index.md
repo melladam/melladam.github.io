@@ -455,7 +455,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <p>
   To answer that, we switch from a category-wide view to a <strong>channel-level</strong> spike detector: for every channel, we estimate
   what a “normal” week looks like using a <strong>rolling median</strong> of weekly new views over the past <strong>~52 weeks</strong>
-  (with at least 13 weeks of history). This matters because YouTube grows over time—so a week in 2019 should be compared to that same
+  (with at least 13 weeks of history). This matters because YouTube grows over time, so a week in 2019 should be compared to that same
   channel’s recent baseline, not to its early 2015 numbers. A week is then labeled a spike when its <code>delta_views</code> is at least
   <strong>2×</strong> the rolling median. Finally, we aggregate all detected spikes back up to the <strong>category</strong> level to
   summarize the distribution of spike magnitudes (median, percentiles, max) and the overall “spike impact” in absolute views.
@@ -465,18 +465,32 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <div class="plotly-block">
   {% include spikes_frequency_bar.html%}
 </div>
+<p>
+Gaming has the highest spike frequency of all categories, with roughly 20% of channel-weeks flagged as spikes. This shows that sudden jumps in views are a routine part of how Gaming channels grow, not rare exceptions. Compared to other categories, Gaming content experiences sharp bursts of attention much more often, reflecting a highly event-driven and volatile ecosystem.
+</p>
+
 
 <div class="plotly-block">
   {% include spikes_tail_scatter.html%}
 </div>
+<p>
+Gaming stands out strongly when looking at the most extreme spikes. Its very high 90th-percentile spike magnitude, combined with one of the largest single spikes observed, shows that Gaming’s biggest moments are far more intense than those in other categories. This heavier tail means that viral Gaming events are not only frequent, but also unusually powerful.
+</p>
 
 <div class="plotly-block">
   {% include spikes_totalviews_scatter.html%}
 </div>
+<p>
+Gaming combines large relative spikes with large absolute impact. When a Gaming channel spikes, views often increase by more than four times a normal week, and these surges translate into substantial total view counts. The large bubble size indicates that this effect comes from many channels spiking together, rather than a small number of isolated viral videos.
+</p>
+
 
 <div class="plotly-block">
   {% include spikes_universal_scatter.html%}
 </div>
+<p>
+Spikes in Gaming are nearly universal across the category, with almost all channels experiencing at least one spike over time. Unlike many other categories, Gaming also pairs this wide participation with higher typical spike magnitudes. In practice, this means that spikes are both widespread and meaningful for most Gaming creators, not limited to a small top tier.
+</p>
 
 
 
