@@ -366,9 +366,9 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   how many new views and subscribers appear each quarter (rather than a single total snapshot).
 </p>
 <p>
-  Below, we focus on Gaming. The key pattern we want to see is simple:
-  <span class="solution-highlight">steady growth</span> — with occasional spikes that suggest real-world events
-  (like major game releases or big online trends) triggering bursts of attention.
+  <em>Data note:</em> Youniverse gives us these time series, but coverage is limited to <strong>2015–2019</strong>
+  and only includes <strong>English-language</strong> channels with at least <strong>&gt;10k subscribers</strong> and
+  <strong>&gt;10 videos</strong>.
 </p>
 
 <!-- SIMPLE BLOCK 3 -->
@@ -378,7 +378,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   Quarter after quarter, Gaming keeps adding audience attention.
 </p>
 <p>
-  This is a strong signal that Gaming isn’t just popular — it’s <strong>durable</strong>.
+  This is a strong signal that Gaming isn’t just popular : it’s <strong>durable</strong>.
   Even when the number of uploaded videos fluctuates, the category keeps generating new views
   and keeps pulling new subscribers.
 </p>
@@ -388,17 +388,14 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   <li><strong>Delta subscribers:</strong> shows how much new audience Gaming converted during each quarter</li>
   <li><strong>Spikes:</strong> often match “event moments” (big releases, trending games, viral challenges)</li>
 </ul>
-
-<p>
-  We don’t need to name every single event to make the point:
-  the shape itself tells us Gaming is <strong>reactive</strong> (it spikes) and <strong>stable</strong> (it keeps growing).
-</p>
-
 <div class="plotly-block">
   {% include quarterly_dashboard_all_categories.html%}
 </div>
 
 <!-- SIMPLE BLOCK 4 -->
+<p>
+  The graph illustrate that Gaming is <strong>reactive</strong> (as it spikes) and <strong>stable</strong> (as it keeps growing).
+</p>
 <p>
   <strong>Views climb sharply over time</strong>. Instead of a slow, flat progression, the curve rises quickly,
   which means Gaming keeps capturing new attention quarter after quarter. This is what we expect from a category
@@ -414,8 +411,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <p>
   If Gaming combines <strong>scale</strong> (it represents a large part of YouTube) with <strong>momentum</strong>
   (its quarterly changes keep moving upward), then it already looks like a category powered by a strong creator base
-  and a loyal audience. The next step is to test the “community” claim directly: do the same users comment across many
-  Gaming channels, creating tighter links than in other categories? That’s what our comment-link network analysis will measure.
+  and a loyal audience. 
 </p>
 
 
@@ -465,16 +461,9 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   }
 </style>
 
-<div class="plotly-block">
-  {% include donuts_plotly_snippet.html %}
-</div>
 
 <div class="plotly-block">
   {% include spike_concentration_plot.html%}
-</div>
-
-<div class="plotly-block">
-  {% include quarterly_dashboard_all_categories.html%}
 </div>
 
 <div class="plotly-block">
