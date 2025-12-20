@@ -12,8 +12,6 @@ cover-img-opacity: 0.35
        style="width:1000px; border-radius:0px">
 </p>
 
-# Welcome to the world where gaming became more than just games
-
 <style>
   .intro-block {
     display: flex;
@@ -23,8 +21,8 @@ cover-img-opacity: 0.35
   }
 
   .intro-img {
-    flex: 0 0 38%;       
-    max-width: 380px;
+    flex: 0 0 34%;       
+    max-width: 300px;
   }
 
   .intro-img img {
@@ -57,33 +55,29 @@ cover-img-opacity: 0.35
 
   <div class="intro-text">
     <p>
-      Imagine it from the parents’ point of view for a second: it’s late, the hallway light is on, explosions and excited voices are leaking through a half-closed door. All they see is a teenager glued to a screen, headset on, laughing at strangers on the internet instead of “doing something productive”.
+      Imagine the scene from a parent’s point of view: it’s late, the hallway light is on, and loud explosions and excited voices spill out from behind a half-closed bedroom door. Inside, a teenager sits in front of a screen, headset on, laughing with strangers online instead of doing what seems “productive.”
+
     </p>
 
     <p>
-      From the outside, it looked like noise, distraction and for them, it was definitely a problem. But inside that room, something very different was happening.
+      From the outside, it looks like noise, distraction, and wasted time. But inside that room, something very different is happening.
     </p>
   </div>
 </div>
 
 <p>
-<strong>Growing up, we all had that moment : </strong> the door half-closed, the headset on, the bright glow of YouTube illuminating our room while our parents sighed in the background.
+<strong>For many of us, growing up meant spending hours on YouTube watching gaming videos — learning strategies, sharing jokes, celebrating wins, and venting frustration together. These weren’t just videos. They were shared experiences. Viewers weren’t passive spectators; they were active participants in a space that felt welcoming and familiar.
 </p>
 
 <p>
-To them, gaming videos were loud, pointless, maybe even worrying. <strong>To us, they were the closest thing to a home away from home.</strong>
-</p>
-
-<p>
-Gamers didn’t just watch videos; they shared tips, jokes, excitement, frustration. They weren’t just viewers, <strong>they were part of something</strong>. A community that felt incredibly real, even through a screen. And so the question stayed with us:
+Gaming content didn’t just entertain. It connected people. It created communities that felt real, supportive, and alive — even through a screen.
 </p>
 
 <p style="font-weight:700; font-size:1.15rem; color:#2b8cff;">
-Was the gaming community truly as strong and unique as it felt… or were we simply kids romanticizing our childhood?
-</p>
+But was that sense of belonging truly unique to the gaming community? Or was it simply nostalgia shaping our perception?</p>
 
 <p>
-Now that we finally have the tools, the data, and the expertise to step back and analyse YouTube’s ecosystem objectively, we’re ready to uncover the truth.
+Today, with access to data and analytical tools, we can move beyond personal memories and examine YouTube objectively. This project explores one central question:
 </p>
 
 <style>
