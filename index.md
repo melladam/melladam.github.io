@@ -446,6 +446,39 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   ecosystem.
 </p>
 
+<h3>Measuring Spike Magnitude Across Categories</h3>
+
+<p>
+  Once we’ve seen <em>how concentrated</em> spike weeks are, the next step is to measure <strong>how intense</strong> those spikes get.
+  In other words: when a category surges, is it a small bump—or a massive jump?
+</p>
+<p>
+  To answer that, we switch from a category-wide view to a <strong>channel-level</strong> spike detector: for every channel, we estimate
+  what a “normal” week looks like using a <strong>rolling median</strong> of weekly new views over the past <strong>~52 weeks</strong>
+  (with at least 13 weeks of history). This matters because YouTube grows over time—so a week in 2019 should be compared to that same
+  channel’s recent baseline, not to its early 2015 numbers. A week is then labeled a spike when its <code>delta_views</code> is at least
+  <strong>2×</strong> the rolling median. Finally, we aggregate all detected spikes back up to the <strong>category</strong> level to
+  summarize the distribution of spike magnitudes (median, percentiles, max) and the overall “spike impact” in absolute views.
+  The results below show which categories have the most intense spikes—and which ones grow in a steadier, less bursty way.
+</p>
+
+<div class="plotly-block">
+  {% include spikes_frequency_bar.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_tail_scatter.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_totalviews_scatter.html%}
+</div>
+
+<div class="plotly-block">
+  {% include spikes_universal_scatter.html%}
+</div>
+
+
 
 
 <!-- Simple repeatable block -->
@@ -494,22 +527,6 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   }
 </style>
 
-
-<div class="plotly-block">
-  {% include spikes_frequency_bar.html%}
-</div>
-
-<div class="plotly-block">
-  {% include spikes_tail_scatter.html%}
-</div>
-
-<div class="plotly-block">
-  {% include spikes_totalviews_scatter.html%}
-</div>
-
-<div class="plotly-block">
-  {% include spikes_universal_scatter.html%}
-</div>
 
 
 
