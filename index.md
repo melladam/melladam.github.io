@@ -53,7 +53,7 @@ cover-img-opacity: 0.35
     margin: 28px 0 10px 0;
     font-size: 1.45rem;
     font-weight: 800;
-    color: #2b8cff;
+    color: #4A2B6B;
   }
 
   .simple-list{
@@ -93,7 +93,7 @@ For many of us, growing up meant spending hours on YouTube watching gaming video
 Gaming content didn’t just entertain. It connected people. It created communities that felt real, supportive, and alive — even through a screen.
 </p>
 
-<p style="font-weight:700; font-size:1.15rem; color:#2b8cff;">
+<p style="font-weight:700; font-size:1.15rem; color:#4A2B6B;">
 But was that sense of belonging truly unique to the gaming community? Or was it simply nostalgia shaping our perception?</p>
 
 <p>
@@ -131,7 +131,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
   .frame-content h2 {
     text-align: center;
-    color: #2b8cff;
+    color: #4A2B6B;
     margin-bottom: 16px;
     font-size: 1.5rem;
   }
@@ -221,7 +221,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
   .solution-highlight {
     font-weight: 700;
-    color: #2b8cff;
+    color: #4A2B6B;
   }
 
   .solution-metrics {
@@ -241,7 +241,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   .metric-num {
     font-size: 1.25rem;
     font-weight: 800;
-    color: #2b8cff;
+    color: #4A2B6B;
     margin: 0 0 4px 0;
   }
 
