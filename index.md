@@ -139,8 +139,8 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   .frame-content ul {
     margin: 0;
     padding-left: 22px;
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 0.90rem;
+    line-height: 1.50;
   }
 
   .frame-content li {
