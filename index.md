@@ -377,6 +377,18 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </ul>
 <p>Paragraph 3.</p>
 
+<style>
+  .plotly-block{
+    max-width: 1000px;
+    margin: 30px auto 60px auto;
+  }
+</style>
+
+<div class="plotly-block">
+  {% include donuts_plotly_snippet.html %}
+</div>
+
+
 
 
   
