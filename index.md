@@ -315,39 +315,11 @@ Today, with access to data and analytical tools, we can move beyond personal mem
       It’s about <span class="solution-highlight">interaction</span>:
       who shows up, who returns, who clusters around the same creators, and how tightly those clusters hold together.
     </p>
-
-    <ul class="solution-list">
-      <li>
-        We compare <span class="solution-highlight">engagement signals</span> across categories
-        (how often viewers interact, and how concentrated those interactions are).
-      </li>
-      <li>
-        We model YouTube as a <span class="solution-highlight">network</span>:
-        channels as nodes, user interactions as links.
-      </li>
-      <li>
-        We detect <span class="solution-highlight">sub-communities</span> inside Gaming and measure how cohesive they are.
-      </li>
-      <li>
-        We check whether Gaming looks structurally different —
-        denser, more interconnected, and more “home-like” than other categories.
-      </li>
-    </ul>
-
-    <p class="solution-note">
-      If Gaming truly is the strongest community, it shouldn’t just be a memory.
-      It should show up in the data as a measurable pattern.
-    </p>
   </div>
 </div>
 
 ---
 
-## Project in order
 
-- Pre-processing explained to deal with large dataset
-- ML clustering?
-- Hypothesis Testing
-- Results from P2 (adapted to the new data pre-process?)
   
 
