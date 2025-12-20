@@ -338,98 +338,82 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   </div>
 </div>
 
-
 <!-- SIMPLE BLOCK 1 -->
-<h2 class="simple-title">First, a bird’s-eye view of YouTube (2015–2019)</h2>
+<h2 class="simple-title">A quick reality check: Gaming is not a “small niche”</h2>
 <p>
-  Before we dive into “community strength”, we start with something simpler: <strong>scale</strong>.
-  Who dominates YouTube in raw volume? Who owns the biggest slice of attention?
+  Before talking about “community strength”, we first look at something objective:
+  <strong>how big each category is</strong> on YouTube.
 </p>
 <p>
-  The donut charts below give a quick map of the platform: how total <strong>views</strong>,
-  <strong>subscribers</strong>, and <strong>channels</strong> are distributed across categories.
-  Think of it as the background context for everything that follows.
+  The donut charts below show the share of total <strong>views</strong>, <strong>subscribers</strong>, and <strong>channels</strong>
+  across categories (2015–2019). And the takeaway is clear:
+  <span class="solution-highlight">Gaming sits among the biggest categories on the platform</span>.
 </p>
 <p>
-  This matters because the “best” community shouldn’t just be the loudest.
-  A category can be huge and still feel disconnected; another can be smaller but much more interactive.
-  So we treat these totals as a starting point — not a verdict.
+  In other words, Gaming isn’t just “people wasting time on videos”.
+  It’s a major part of YouTube’s ecosystem — with a large audience, a large creator base,
+  and a strong ability to attract subscribers.
 </p>
+
+<div class="plotly-block">
+  {% include donuts_plotly_snippet.html %}
+</div>
 
 <!-- SIMPLE BLOCK 2 -->
-<h2 class="simple-title">Then, we switch from totals to <em>dynamics</em></h2>
+<h2 class="simple-title">From “big” to “alive”: does Gaming keep growing over time?</h2>
 <p>
-  Totals are static. Communities are alive.
-  To see whether Gaming behaves like a strong community, we need to watch how it changes over time:
-  when it grows, how fast it reacts, and whether it keeps momentum.
+  Being big is one thing. But a strong category should also show <strong>momentum</strong>:
+  creators keep uploading, audiences keep watching, and the category doesn’t depend on a single viral moment.
 </p>
 <p>
-  That’s what the interactive dashboard does: it aggregates the YouNiverse time series at the
-  <strong>quarter</strong> level and lets you compare categories with the same lens.
+  To test that, we look at quarterly time series using <strong>delta</strong> metrics:
+  how many new views and subscribers appear each quarter (rather than a single total snapshot).
 </p>
-
-<ul class="simple-list">
-  <li><strong>Channels:</strong> how many channels are active in that category over time</li>
-  <li><strong>Videos:</strong> how much content gets published per quarter</li>
-  <li><strong>Views:</strong> how audience attention evolves across quarters</li>
-</ul>
 <p>
-  If Gaming is truly “the best community”, we should see more than a big number:
-  we should see a <strong>consistent and resilient trajectory</strong>.
+  Below, we focus on Gaming. The key pattern we want to see is simple:
+  <span class="solution-highlight">steady growth</span> — with occasional spikes that suggest real-world events
+  (like major game releases or big online trends) triggering bursts of attention.
 </p>
 
 <!-- SIMPLE BLOCK 3 -->
-<h2 class="simple-title">How to read the time-series dashboard</h2>
+<h2 class="simple-title">Gaming in delta: subscribers and views keep moving up</h2>
 <p>
-  The dropdown lets you choose a category (Gaming, Music, Entertainment, …) and how to interpret change over time.
-  We use quarterly aggregation because weekly data is extremely noisy at this scale.
+  In the dashboard, select <strong>Gaming</strong> and set the metric to <strong>delta</strong>.
+  You’ll notice a consistent direction: quarter after quarter, Gaming keeps adding audience attention.
 </p>
 <p>
-  You’ll see two complementary perspectives:
-  <strong>delta</strong> (what’s added during the quarter) versus <strong>stock</strong>
-  (the level observed at that time, like a snapshot).
-</p>
-<p>
-  A quick intuition: delta is “activity this quarter”; stock is “where the category stands right now”.
-  Both are useful — one captures bursts and reactions, the other captures long-term growth.
-</p>
-
-<!-- SIMPLE BLOCK 4 -->
-<h2 class="simple-title">What we’re looking for in Gaming</h2>
-<p>
-  Our claim isn’t just “Gaming is big”. Our claim is: <strong>Gaming is cohesive and interactive</strong>.
-  The time series helps us test the first half of that statement: does the category show strong, sustained activity?
-</p>
-<p>
-  Concretely, we expect Gaming to combine:
-  frequent content output, a large active creator base, and strong audience attention — without collapsing outside a few peaks.
+  This is a strong signal that Gaming isn’t just popular — it’s <strong>durable</strong>.
+  Even when the number of uploaded videos fluctuates, the category keeps generating new views
+  and keeps pulling new subscribers.
 </p>
 
 <ul class="simple-list">
-  <li><strong>Stability:</strong> growth that doesn’t rely on one short spike</li>
-  <li><strong>Responsiveness:</strong> visible jumps around major game releases or events</li>
-  <li><strong>Retention:</strong> views remain high even when uploads fluctuate</li>
+  <li><strong>Delta views:</strong> shows how much new attention Gaming gained during each quarter</li>
+  <li><strong>Delta subscribers:</strong> shows how much new audience Gaming converted during each quarter</li>
+  <li><strong>Spikes:</strong> often match “event moments” (big releases, trending games, viral challenges)</li>
 </ul>
+
 <p>
-  If these patterns appear consistently, Gaming looks less like a random collection of videos
-  and more like a category with an “engine”.
+  We don’t need to name every single event to make the point:
+  the shape itself tells us Gaming is <strong>reactive</strong> (it spikes) and <strong>stable</strong> (it keeps growing).
 </p>
 
-<!-- SIMPLE BLOCK 5 -->
-<h2 class="simple-title">A note on scope (and why it’s still fair)</h2>
-<p>
-  To keep the analysis tractable, we focus on the <strong>top 100 channels per category</strong>.
-  This is not a perfect mirror of all of YouTube — but it’s a meaningful proxy for how the “core” of each category behaves.
-</p>
-<p>
-  Also, our time-series window is limited (roughly 2016–2019 for consistent coverage).
-  That means we’re judging communities in a specific era of YouTube — which is exactly the period most of us grew up with.
-</p>
-<p>
-  Later in the project, we’ll go beyond growth curves and test the true “community” idea directly,
-  by building comment-based links between channels and measuring how tightly the category connects from the inside.
-</p>
+<div class="plotly-block">
+  {% include quarterly_dashboard_all_categories.html%}
+</div>
 
+<!-- SIMPLE BLOCK 4 -->
+<h2 class="simple-title">Why this matters for our question</h2>
+<p>
+  If Gaming shows both <strong>scale</strong> (large share of the platform) and <strong>growth</strong>
+  (consistent delta increases), then it already passes an important filter:
+  it’s a category with a strong creator economy and a strong audience engine.
+</p>
+<p>
+  But “best community” isn’t only about growth curves. The real community test comes next:
+  do audiences overlap across Gaming channels more than elsewhere?
+  That’s where our comment-link network analysis will step in.
+</p>
 
 <!-- Simple repeatable block -->
 <h2 class="simple-title">Title</h2>
