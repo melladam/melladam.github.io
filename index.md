@@ -347,11 +347,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <p>
   The donut charts below show the share of total <strong>views</strong>, <strong>subscribers</strong>, and <strong>channels</strong>
   across categories (2015–2019). And the takeaway is clear:
-  <span class="solution-highlight">Gaming sits among the biggest categories on the platform</span>.
-</p>
-<p>
-  In other words, Gaming isn’t just “people wasting time on videos”.
-  It’s a major part of YouTube’s ecosystem — with a large audience, a large creator base,
+  <span class="solution-highlight">Gaming sits among the biggest categories on the platform</span>. It’s indeed a major part of YouTube’s ecosystem — with a large audience, a large creator base,
   and a strong ability to attract subscribers.
 </p>
 
@@ -379,7 +375,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <h2 class="simple-title">Gaming in delta: subscribers and views keep moving up</h2>
 <p>
   In the dashboard, select <strong>Gaming</strong> and set the metric to <strong>delta</strong>.
-  You’ll notice a consistent direction: quarter after quarter, Gaming keeps adding audience attention.
+  Quarter after quarter, Gaming keeps adding audience attention.
 </p>
 <p>
   This is a strong signal that Gaming isn’t just popular — it’s <strong>durable</strong>.
@@ -403,17 +399,25 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </div>
 
 <!-- SIMPLE BLOCK 4 -->
-<h2 class="simple-title">Why this matters for our question</h2>
 <p>
-  If Gaming shows both <strong>scale</strong> (large share of the platform) and <strong>growth</strong>
-  (consistent delta increases), then it already passes an important filter:
-  it’s a category with a strong creator economy and a strong audience engine.
+  <strong>Views climb sharply over time</strong>. Instead of a slow, flat progression, the curve rises quickly,
+  which means Gaming keeps capturing new attention quarter after quarter. This is what we expect from a category
+  that has become mainstream: more creators join in, more viewers show up, and the audience keeps expanding.
 </p>
 <p>
-  But “best community” isn’t only about growth curves. The real community test comes next:
-  do audiences overlap across Gaming channels more than elsewhere?
-  That’s where our comment-link network analysis will step in.
+  <strong>Uploads don’t follow a perfectly smooth rhythm</strong>. The number of videos posted per quarter goes up and down,
+  which is normal for a fast-moving ecosystem: production often follows external timing (big releases, seasonal periods,
+  major online trends), and creators adapt their output accordingly. What matters is that even with these variations,
+  Gaming continues to accumulate views and stay active.
 </p>
+
+<p>
+  If Gaming combines <strong>scale</strong> (it represents a large part of YouTube) with <strong>momentum</strong>
+  (its quarterly changes keep moving upward), then it already looks like a category powered by a strong creator base
+  and a loyal audience. The next step is to test the “community” claim directly: do the same users comment across many
+  Gaming channels, creating tighter links than in other categories? That’s what our comment-link network analysis will measure.
+</p>
+
 
 <!-- Simple repeatable block -->
 <h2 class="simple-title">Title</h2>
