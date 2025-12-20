@@ -439,9 +439,11 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </p>
 <p>
   Interpreting it is straightforward: a <strong>higher</strong> top-10 share means spikes are often driven by a small set of
-  big channels; a <strong>lower</strong> share means the surge is more broadly shared across creators. In our case,
-  <strong>Gaming stands out with the lowest median</strong> top-10 share (around <strong>~11%</strong>), which is exactly what
-  you’d expect from a category supported by a deep bench of creators rather than a few “spike-makers”.
+  big channels; a <strong>lower</strong> share means the surge is more broadly shared across creators. And here, the signal is
+  especially clear: <strong>Gaming has the lowest median</strong> top-10 share (around <strong>~11%</strong>) of all categories.
+  In other words, even when Gaming “spikes”, the extra views are <strong>the least concentrated</strong> and are spread across
+  many channels, not captured by a handful of spike-makers. That’s a strong sign of a category built on a deep, resilient creator
+  ecosystem.
 </p>
 
 
@@ -492,10 +494,6 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   }
 </style>
 
-
-<div class="plotly-block">
-  {% include spike_concentration_plot.html%}
-</div>
 
 <div class="plotly-block">
   {% include spikes_frequency_bar.html%}
