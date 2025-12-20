@@ -392,6 +392,9 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   {% include spike_concentration_plot.html%}
 </div>
 
+<div class="plotly-block">
+  {% include quarterly_dashboard_all_categories.html%}
+</div>
 
 
   
