@@ -48,6 +48,26 @@ cover-img-opacity: 0.35
   }
 </style>
 
+<style>
+  .simple-title{
+    margin: 28px 0 10px 0;
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #2b8cff;
+  }
+
+  .simple-list{
+    margin: 10px 0 14px 0;
+    padding-left: 22px;
+    line-height: 1.7;
+  }
+
+  .simple-list li{
+    margin-bottom: 6px;
+  }
+</style>
+
+
 <div class="intro-block">
   <div class="intro-img">
     <img src="/assets/img/gamer_intro.png" alt="Gamer watching gaming videos">
@@ -318,7 +338,45 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   </div>
 </div>
 
----
+<!-- Simple repeatable block -->
+<h2 class="simple-title">Title</h2>
+<p>Paragraph 1.</p>
+<p>Paragraph 2.</p>
+<p>Paragraph 3.</p>
+
+<!-- Simple repeatable block -->
+<h2 class="simple-title">Title</h2>
+<p>Paragraph 1.</p>
+<p>Paragraph 2.</p>
+
+<ul class="simple-list">
+  <li>Bullet 1</li>
+  <li>Bullet 2</li>
+  <li>Bullet 3</li>
+</ul>
+<p>Paragraph 3.</p>
+
+<h2 class="simple-title">Title</h2>
+<p>Paragraph 1.</p>
+<p>Paragraph 2.</p>
+<p>Paragraph 3.</p>
+
+<h2 class="simple-title">Title</h2>
+<p>Paragraph 1.</p>
+<p>Paragraph 2.</p>
+<p>Paragraph 3.</p>
+
+<h2 class="simple-title">Title</h2>
+<p>Paragraph 1.</p>
+<p>Paragraph 2.</p>
+
+<ul class="simple-list">
+  <li>Bullet 1</li>
+  <li>Bullet 2</li>
+  <li>Bullet 3</li>
+</ul>
+<p>Paragraph 3.</p>
+
 
 
   
