@@ -883,8 +883,8 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
 
 <img src="/assets/img/word_cloud.png"
-       alt="heatmap"
-       style="width:60%;">
+     alt="heatmap"
+     style="width:60%; display:block; margin:30px auto;">
 
 
 
