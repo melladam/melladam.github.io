@@ -550,6 +550,52 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   <img src="/assets/img/4.2.png"
        alt="Category rankings by year for subs, videos and views">
 
+
+<h2 class="simple-title">How categories evolve over time (all categories)</h2>
+
+<p>
+  Before focusing specifically on Gaming, we briefly contextualize it by looking at how
+  <strong>all categories</strong> evolve over time in terms of dataset coverage, attention,
+  subscriber base, and upload activity.
+</p>
+
+<img src="/assets/img/5.1.png"
+     alt="Number of unique channels per category over time"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+
+<p style="max-width:1000px; margin:0 auto 40px auto;">
+  The number of tracked channels increases steadily across all categories,
+  confirming that dataset coverage expands over time.
+</p>
+
+<img src="/assets/img/5.2.png"
+     alt="Average delta views per channel over time for all categories"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+
+<p style="max-width:1000px; margin:0 auto 40px auto;">
+  Categories differ strongly in their typical view gains,
+  motivating the use of relative and within-channel metrics rather than raw levels.
+</p>
+
+<img src="/assets/img/5.3.1.png"
+     alt="Average total subscribers per channel over time for all categories"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+
+<p style="max-width:1000px; margin:0 auto 40px auto;">
+  Subscriber bases grow across most categories, but at different speeds,
+  reinforcing the need for careful cross-category comparison.
+</p>
+
+<img src="/assets/img/5.4.png"
+     alt="Average delta videos per channel over time for all categories"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+
+<p style="max-width:1000px; margin:0 auto 60px auto;">
+  Upload dynamics vary substantially between categories,
+  helping explain differences in volatility and spike behavior observed later.
+</p>
+
+
 <p>
   With that relative context in mind, we now zoom into <strong>spikes</strong> to compare categories more fairly,
   using within-channel baselines rather than raw totals.
