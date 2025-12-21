@@ -608,6 +608,8 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.2.1.png"
      alt="Average delta views per gaming channel over time"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+     
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   Similarly to what we saw previously, in 2017 average monthly delta views per Gaming channel seem to drop.
   With the expansion of the dataset both the mean and the standard deviation increase abruptly in the second half of 2017
   and then seem to show constant growth for the rest of the studied period.
@@ -616,12 +618,10 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   and higher activity among young audiences.
 </p>
 
-<img src="/assets/img/6.2.1.png"
-     alt="Average delta views per gaming channel over time"
+<img src="/assets/img/6.2.2.png"
+     alt="Average delta videos per gaming channel over time"
      style="width:100%; margin:30px auto 10px auto; display:block;">
-     
-<img src="/assets/img/6.2.2.png" alt="Average delta videos per gaming channel over time" class="figure-small">
-<p class="figure-caption">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   Looking at average monthly delta videos (new uploads) per gaming channel confirms the unreliability of early data in 2016–2017.
   From 2018 to 2020 we observe a slight decrease in the average monthly upload rate, while the standard deviation increases.
   On average, channels are posting roughly one less video per month in 2020 compared to 2018, suggesting a shift in production dynamics.
@@ -630,6 +630,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.2.3.png"
      alt="Average delta subscribers per gaming channel over time"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   Despite the decrease in upload frequency, new subscribers increase steadily from around 32k per month in 2018 to about 52k in 2020.
   This suggests that the category continues to grow and attract new audiences even as posting slows down.
 </p>
@@ -637,6 +638,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.2.4.png"
      alt="Average total subscribers per gaming channel over time"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   Unlike delta subscribers (monthly gains), <strong>total subscribers</strong> represents the absolute audience size.
   The average gaming channel grows from roughly 115,736 subscribers in 2018 to about 186,486 in 2020.
   The growth is clearly positive, although it is slower than in some other categories.
@@ -645,6 +647,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.3.1.png"
      alt="Monthly delta subscribers for top 10 gaming channels"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   This plot shows an interesting event in the gaming community: a major peak in late 2019 in PewDiePie’s delta subscribers.
   This corresponds to a well-known subscriber competition event where many users subscribed massively, highlighting how
   community-driven dynamics can create sudden surges in engagement.
@@ -653,6 +656,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.3.2.png"
      alt="Total subscribers for top 10 gaming channels"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   This plot shows the <strong>total subscriber count</strong> for each of the top 10 gaming channels over time,
   reflecting absolute audience size rather than growth rates.
 </p>
@@ -660,6 +664,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <img src="/assets/img/6.3.3.png"
      alt="Monthly delta videos for top 10 gaming channels"
      style="width:100%; margin:30px auto 10px auto; display:block;">
+<p style="max-width:1000px; margin:0 auto 40px auto;">
   By looking at monthly delta videos for top gaming channels, we clearly see the decrease in upload frequency analyzed above.
   From 2019 onward, channels like Markiplier and jacksepticeye go from roughly 50–70 monthly uploads down to 20–30,
   reflecting a shift in production/consumption patterns in Gaming content.
@@ -870,19 +875,11 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
        style="width:100%;">
 
 <p>
-  The <strong>Top-K tag coverage heatmap</strong> shows that <strong>Gaming</strong> consistently achieves
-  <strong>high coverage</strong> across all <strong>subscriber clusters</strong>, meaning that a relatively
-  <strong>small set of tags</strong> is sufficient to describe a <strong>large fraction</strong> of Gaming videos,
-  regardless of channel size. While categories such as <strong>Autos &amp; Vehicles</strong> and <strong>Music</strong>
-  also display relatively strong coverage, <strong>Gaming</strong> remains <strong>slightly more stable</strong> across clusters
-  and <strong>outperforms most other categories</strong>, where coverage fluctuates more strongly and suggests
-  <strong>fragmented vocabularies</strong>. This pattern points to a <strong>shared</strong> and
-  <strong>well-established tag vocabulary</strong>, driven by recurring <strong>game titles</strong>,
-  <strong>genres</strong>, <strong>mechanics</strong>, and <strong>community-specific references</strong>.
-  From a structural perspective, this makes Gaming a <strong>highly cohesive</strong>,
-  <strong>community-like category</strong>, where <strong>thematic alignment</strong> and
-  <strong>common references</strong> reinforce <strong>collective identity</strong> and
-  <strong>content discoverability</strong>.
+  The <strong>Top-K tag coverage heatmap</strong> suggests that <strong>Gaming</strong> stays fairly consistent across all
+  <strong>subscriber clusters</strong>: a relatively small set of tags already covers a large share of Gaming videos,
+  whatever the channel size. Some categories like <strong>Autos &amp; Vehicles</strong> and <strong>Music</strong> also look
+  quite cohesive, but Gaming seems a bit more stable overall, while many other categories fluctuate more and look more mixed.
+  In practice, this likely comes from recurring game titles, genres, and common community references that show up again and again.
 </p>
 
 
