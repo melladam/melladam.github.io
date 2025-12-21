@@ -882,7 +882,9 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   In practice, this likely comes from recurring game titles, genres, and common community references that show up again and again.
 </p>
 
-
+<img src="/assets/img/word_cloud.png"
+       alt="heatmap"
+       style="width:100%;">
 
 
 
