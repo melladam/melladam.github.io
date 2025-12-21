@@ -906,6 +906,19 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   <strong>some categories are structurally more “community-like” than others</strong>, with much tighter internal audience overlap.
 </p>
 
+<img src="/assets/img/links_same_vs_diff_hist.png"
+       alt="heatmap"
+       style="width:100%;">
+
+<p>
+The histogram compares audience overlap between pairs of channels from the same category and from different
+categories. Although both distributions are highly skewed, links between channels within the same category
+are consistently stronger: they reach higher values more often and populate the upper tail of the distribution.
+This visual pattern is confirmed by a Mann–Whitney test, which shows that the two distributions differ
+significantly. In practice, this means that viewers are much more likely to comment across multiple creators
+within the same category than across unrelated categories, providing clear evidence that YouTube categories
+correspond to real, structured communities rather than arbitrary labels.
+</p>
 
 <img src="/assets/img/links_within_category.png"
        alt="heatmap"
@@ -935,19 +948,7 @@ sightly more diffused across Youtube than other categories.
 
 </p>
 
-<img src="/assets/img/links_same_vs_diff_hist.png"
-       alt="heatmap"
-       style="width:100%;">
 
-<p>
-The histogram compares audience overlap between pairs of channels from the same category and from different
-categories. Although both distributions are highly skewed, links between channels within the same category
-are consistently stronger: they reach higher values more often and populate the upper tail of the distribution.
-This visual pattern is confirmed by a Mann–Whitney test, which shows that the two distributions differ
-significantly. In practice, this means that viewers are much more likely to comment across multiple creators
-within the same category than across unrelated categories, providing clear evidence that YouTube categories
-correspond to real, structured communities rather than arbitrary labels.
-</p>
 
 <h2 class="simple-title">Conclusion</h2>
 <p>
