@@ -518,7 +518,43 @@ and we compare <strong>Gaming</strong> against every other category.
 To make this comparison rigorous, we rely on <strong>non-parametric statistical tests</strong> adapted to the highly skewed and heavy-tailed nature of YouTube data. We first use a <strong>Kruskal–Wallis test</strong> to verify that meaningful differences in engagement exist between categories. Once this is established, we perform <strong>pairwise Mann–Whitney U tests</strong> to compare <strong>Gaming</strong> against every other category, while applying a <strong>Holm–Bonferroni correction</strong> to control for multiple comparisons. These tests are applied to five complementary <strong>interaction metrics</strong>: the <strong>comments per view</strong> ratio (discussion intensity), the <strong>likes per view</strong> ratio (active support), the <strong>dislikes per view</strong> ratio (active rejection), the <strong>appreciation ratio</strong> defined as likes over total reactions, and the <strong>views per subscriber</strong> ratio, which captures how strongly a channel’s audience is anchored in its subscriber base.
 </p>
 
+<table style="width:100%; max-width:900px; margin:40px auto; border-collapse:collapse;">
+  <tr>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_0_HMC.png"
+           alt="Heatmap Group 0"
+           style="width:100%;">
+    </td>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_1_HMC.png"
+           alt="Heatmap Group 1"
+           style="width:100%;">
+    </td>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_2_HMC.png"
+           alt="Heatmap Group 2"
+           style="width:100%;">
+    </td>
+  </tr>
 
+  <tr>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_3_HMC.png"
+           alt="Heatmap Group 3"
+           style="width:100%;">
+    </td>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_4_HMC.png"
+           alt="Heatmap Group 4"
+           style="width:100%;">
+    </td>
+    <td style="padding:10px; text-align:center;">
+      <img src="/assets/img/group_5_HMC.png"
+           alt="Heatmap Group 5"
+           style="width:100%;">
+    </td>
+  </tr>
+</table>
 
 
 
