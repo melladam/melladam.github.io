@@ -493,13 +493,10 @@ Spikes in Gaming are nearly universal across the category, with almost all chann
 </p>
 
 <!-- Simple repeatable block -->
-<h2 class="From attention to interaction: do Gaming viewers engage differently?">Title</h2>
+<h2 class="simple-title">From attention to interaction: do Gaming viewers engage differently?</h2>
 <p>
 Up to now, we’ve looked at YouTube from a distance:
 <strong>views</strong>, <strong>growth</strong>, <strong>spikes</strong>.
-</p>
-
-<p>
 But community is not just about <strong>how many people show up</strong> :
 it’s about what they do once they’re there.
 </p>
@@ -518,45 +515,77 @@ and we compare <strong>Gaming</strong> against every other category.
 To make this comparison rigorous, we rely on <strong>non-parametric statistical tests</strong> adapted to the highly skewed and heavy-tailed nature of YouTube data. We first use a <strong>Kruskal–Wallis test</strong> to verify that meaningful differences in engagement exist between categories. Once this is established, we perform <strong>pairwise Mann–Whitney U tests</strong> to compare <strong>Gaming</strong> against every other category, while applying a <strong>Holm–Bonferroni correction</strong> to control for multiple comparisons. These tests are applied to five complementary <strong>interaction metrics</strong>: the <strong>comments per view</strong> ratio (discussion intensity), the <strong>likes per view</strong> ratio (active support), the <strong>dislikes per view</strong> ratio (active rejection), the <strong>appreciation ratio</strong> defined as likes over total reactions, and the <strong>views per subscriber</strong> ratio, which captures how strongly a channel’s audience is anchored in its subscriber base.
 </p>
 
-<table style="width:100%; max-width:900px; margin:40px auto; border-collapse:collapse;">
-  <tr>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_0_HMC.png"
-           alt="Heatmap Group 0"
-           style="width:100%;">
-    </td>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_1_HMC.png"
-           alt="Heatmap Group 1"
-           style="width:100%;">
-    </td>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_2_HMC.png"
-           alt="Heatmap Group 2"
-           style="width:100%;">
-    </td>
-  </tr>
+<!-- Row 1 -->
+<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+  <img src="/assets/img/group_0_HMC.png"
+       alt="Heatmap Group 0"
+       style="width:50%;">
+  <img src="/assets/img/group_1_HMC.png"
+       alt="Heatmap Group 1"
+       style="width:50%;">
+</div>
 
-  <tr>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_3_HMC.png"
-           alt="Heatmap Group 3"
-           style="width:100%;">
-    </td>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_4_HMC.png"
-           alt="Heatmap Group 4"
-           style="width:100%;">
-    </td>
-    <td style="padding:10px; text-align:center;">
-      <img src="/assets/img/group_5_HMC.png"
-           alt="Heatmap Group 5"
-           style="width:100%;">
-    </td>
-  </tr>
-</table>
+<!-- Row 2 -->
+<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+  <img src="/assets/img/group_2_HMC.png"
+       alt="Heatmap Group 2"
+       style="width:50%;">
+  <img src="/assets/img/group_3_HMC.png"
+       alt="Heatmap Group 3"
+       style="width:50%;">
+</div>
+
+<!-- Row 3 -->
+<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+  <img src="/assets/img/group_4_HMC.png"
+       alt="Heatmap Group 4"
+       style="width:50%;">
+  <img src="/assets/img/group_5_HMC.png"
+       alt="Heatmap Group 5"
+       style="width:50%;">
+</div>
 
 
+<p>
+We interpret these results by focusing on the <strong>pairwise comparisons</strong> between
+<strong>Gaming</strong> and the other categories, which reveal how consistently Gaming stands out
+across engagement metrics and subscriber groups.
+</p>
+
+<p>
+The clearest and most robust signal comes from the <strong>comments per view</strong> ratio.
+Across almost all groups and category comparisons, Gaming shows
+<strong>significantly higher commenting activity</strong>,
+with the only notable exception being <em>How-to &amp; Style</em> in the smallest group.
+This indicates that Gaming viewers are more likely to
+<strong>participate in discussions</strong>, making comments a strong marker of community engagement.
+</p>
+
+<p>
+Gaming also performs well on <strong>likes per view</strong>, especially for larger channels,
+suggesting higher levels of <strong>active support</strong>.
+Some categories, such as <em>People &amp; Blogs</em> and <em>Comedy</em>, show comparable results in smaller groups,
+but the overall pattern remains in Gaming’s favor.
+</p>
+
+<p>
+The <strong>dislikes per view</strong> ratio does not show clear differences, which is likely due to
+the generally low number of dislikes across YouTube.
+In contrast, the <strong>appreciation ratio</strong> tends to be higher for Gaming,
+particularly in higher subscriber groups, with <em>NonProfit &amp; Activism</em> as a recurring exception.
+</p>
+
+<p>
+Finally, the <strong>views per subscriber</strong> ratio does not consistently favor Gaming.
+This suggests that Gaming communities are not closed or insular, but rather
+<strong>open and dynamic</strong>, attracting both loyal subscribers and new viewers.
+</p>
+
+<p>
+Overall, these results show that Gaming does not just capture attention —
+it more reliably <strong>turns views into interaction</strong>,
+confirming its role as one of the most socially engaged ecosystems on YouTube.
+</p>
 
 <!-- Simple repeatable block -->
 <h2 class="simple-title">Title</h2>
