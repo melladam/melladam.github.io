@@ -517,6 +517,51 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   time series evolve—i.e., how their deltas rise, fall, or stabilize over time.
 </p>
 
+
+<h2 class="simple-title">A relative check: how does Gaming rank each year?</h2>
+
+<p>
+  Absolute growth can be misleading when the dataset changes over time. So we also look at a simpler signal:
+  <strong>yearly ranks</strong> across categories (1 = best) for <strong>views</strong>, <strong>subs</strong>, and <strong>uploads</strong>.
+</p>
+
+<style>
+  .table-card{
+    max-width: 1000px;
+    margin: 18px auto 50px auto;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 0px;
+    padding: 12px;
+    background: rgba(255,255,255,0.02);
+  }
+  .table-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .table-caption{
+    margin: 10px 2px 0 2px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    opacity: 0.95;
+  }
+</style>
+
+<div class="table-card">
+  <img src="/assets/img/4.2.png"
+       alt="Category rankings by year for subs, videos and views">
+  <p class="table-caption">
+    <strong>How to read:</strong> lower rank = better performance that year.
+    This helps us separate “Gaming grew” from “Gaming grew faster than other categories”.
+  </p>
+</div>
+
+<p>
+  With that relative context in mind, we now zoom into <strong>spikes</strong> to compare categories more fairly,
+  using within-channel baselines rather than raw totals.
+</p>
+
+
 <h3>Defining “Spikes” to Compare Categories Fairly</h3>
 <p>
   To make that comparison fair, we also introduced a simple idea: a <strong>spike</strong>. In practice, a spike is a week where a
