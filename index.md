@@ -915,6 +915,25 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 This figure summarizes the distribution of <strong>within-category link counts</strong>, measuring how often the same users comment across pairs of channels belonging to the same category. Because these link counts are extremely skewed, we use a logarithmic scale and compare full distributions rather than averages. The global Kruskal–Wallis test confirms that categories differ significantly in their internal audience overlap. Visually, Gaming stands among the categories with the highest <em>typical</em> link strength (it is indeed the 2nd, after Comedy): its median within-category overlap is clearly above many others, and its distribution remains elevated across a wide range of values. This indicates that Gaming audiences frequently circulate between multiple creators within the category, rather than concentrating on isolated channels. In contrast, categories with lower medians and tighter distributions exhibit more fragmented or creator-specific audiences. Overall, the pattern supports the idea that Gaming is not only large and active, but also structurally cohesive at the level of shared audience participation.
 </p>
 
+<img src="/assets/img/links_category_heatmap.png"
+       alt="heatmap"
+       style="width:100%;">
+
+<p>
+The heatmap complements the within-category analysis by shifting the focus from internal cohesion to
+<strong>cross-category audience overlap</strong>. Each cell shows the <strong>median number of shared commenters</strong>
+between pairs of channels belonging to two different categories, providing a robust measure of how audiences
+circulate across content types. It reveals how <em>porous or isolated</em> category boundaries are.
+In the context of <strong>Gaming</strong>, the heatmap shows that the category is not isolated, but also not uniformly
+mixed with the rest of YouTube. While most categories display similar, relatively light overlap levels,
+<strong>Gaming stands out by having its strongest connection with itself</strong>, more clearly than any other category.
+It indicates that Gaming audiences circulate more intensely within the category
+than across categories. At the same time, Gaming maintains slightly stronger links with a small set of nearby
+genres, such as <strong>Comedy</strong> and <strong>Pets &amp; Animals</strong>, while remaining connected to more distant
+categories. Overall, this suggests a community that is at the same time <strong>internally cohesive</strong> and
+sightly more diffused across Youtube than other categories.
+
+</p>
 
 
 <style>
