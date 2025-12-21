@@ -551,7 +551,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
        alt="Category rankings by year for subs, videos and views">
 
 
-<h2 class="simple-title">How categories evolve over time (all categories)</h2>
+<h2 class="simple-title">How categories evolve over time (All categories)</h2>
 
 <p>
   Before focusing specifically on Gaming, we briefly contextualize it by looking at how
@@ -594,6 +594,80 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   Upload dynamics vary substantially between categories,
   helping explain differences in volatility and spike behavior observed later.
 </p>
+
+
+<h2 class="simple-title">How categories evolve over time (All categories)</h2>
+<h2 class="simple-title">Zooming in: Gaming category dynamics</h2>
+
+<p>
+  After looking at global category trends, we now focus specifically on <strong>Gaming</strong>.
+  The goal is to understand how Gaming channels evolve over time in terms of views, uploads, and subscriber growth,
+  while keeping in mind the dataset expansion effect discussed earlier.
+</p>
+
+<img src="/assets/img/6.2.1.png"
+     alt="Average delta views per gaming channel over time"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  Similarly to what we saw previously, in 2017 average monthly delta views per Gaming channel seem to drop.
+  With the expansion of the dataset both the mean and the standard deviation increase abruptly in the second half of 2017
+  and then seem to show constant growth for the rest of the studied period.
+  We don't have enough data to show any seasonal pattern with certainty.
+  However, in 2018–2020 we observe recurring peaks during the summer, which could plausibly be linked to school vacations
+  and higher activity among young audiences.
+</p>
+
+<img src="/assets/img/6.2.1.png"
+     alt="Average delta views per gaming channel over time"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+     
+<img src="/assets/img/6.2.2.png" alt="Average delta videos per gaming channel over time" class="figure-small">
+<p class="figure-caption">
+  Looking at average monthly delta videos (new uploads) per gaming channel confirms the unreliability of early data in 2016–2017.
+  From 2018 to 2020 we observe a slight decrease in the average monthly upload rate, while the standard deviation increases.
+  On average, channels are posting roughly one less video per month in 2020 compared to 2018, suggesting a shift in production dynamics.
+</p>
+
+<img src="/assets/img/6.2.3.png"
+     alt="Average delta subscribers per gaming channel over time"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  Despite the decrease in upload frequency, new subscribers increase steadily from around 32k per month in 2018 to about 52k in 2020.
+  This suggests that the category continues to grow and attract new audiences even as posting slows down.
+</p>
+
+<img src="/assets/img/6.2.4.png"
+     alt="Average total subscribers per gaming channel over time"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  Unlike delta subscribers (monthly gains), <strong>total subscribers</strong> represents the absolute audience size.
+  The average gaming channel grows from roughly 115,736 subscribers in 2018 to about 186,486 in 2020.
+  The growth is clearly positive, although it is slower than in some other categories.
+</p>
+
+<img src="/assets/img/6.3.1.png"
+     alt="Monthly delta subscribers for top 10 gaming channels"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  This plot shows an interesting event in the gaming community: a major peak in late 2019 in PewDiePie’s delta subscribers.
+  This corresponds to a well-known subscriber competition event where many users subscribed massively, highlighting how
+  community-driven dynamics can create sudden surges in engagement.
+</p>
+
+<img src="/assets/img/6.3.2.png"
+     alt="Total subscribers for top 10 gaming channels"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  This plot shows the <strong>total subscriber count</strong> for each of the top 10 gaming channels over time,
+  reflecting absolute audience size rather than growth rates.
+</p>
+
+<img src="/assets/img/6.3.3.png"
+     alt="Monthly delta videos for top 10 gaming channels"
+     style="width:100%; margin:30px auto 10px auto; display:block;">
+  By looking at monthly delta videos for top gaming channels, we clearly see the decrease in upload frequency analyzed above.
+  From 2019 onward, channels like Markiplier and jacksepticeye go from roughly 50–70 monthly uploads down to 20–30,
+  reflecting a shift in production/consumption patterns in Gaming content.
+</p>
+
+
+
+
 
 
 <p>
