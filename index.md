@@ -935,6 +935,25 @@ sightly more diffused across Youtube than other categories.
 
 </p>
 
+<img src="/assets/img/links_same_vs_diff_hist.png"
+       alt="heatmap"
+       style="width:100%;">
+
+<p>
+The histogram compares audience overlap between pairs of channels from the same category and from different
+categories. Although both distributions are highly skewed, links between channels within the same category
+are consistently stronger: they reach higher values more often and populate the upper tail of the distribution.
+This visual pattern is confirmed by a Mann–Whitney test, which shows that the two distributions differ
+significantly. In practice, this means that viewers are much more likely to comment across multiple creators
+within the same category than across unrelated categories, providing clear evidence that YouTube categories
+correspond to real, structured communities rather than arbitrary labels.
+</p>
+
+<h2 class="simple-title">Conclusion</h2>
+<p>
+Taken together, these results suggest that “community strength” on YouTube is not a binary label but a spectrum. Many categories share broadly similar patterns—differences can be subtle because large parts of YouTube overlap and the underlying distributions are heavily skewed. Still, across multiple independent signals (engagement ratios, spike participation, tag cohesion, and comment-based channel networks), <strong>Gaming consistently appears near the top</strong>, often alongside a small group of strong categories. Even when the gaps are narrow, the fact that Gaming ranks highly across several complementary metrics supports the idea that it is not only popular, but also unusually good at turning attention into interaction and sustaining a cohesive audience ecosystem at scale.
+</p>
+
 
 <style>
   .plotly-block{
