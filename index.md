@@ -492,6 +492,33 @@ Gaming combines large relative spikes with large absolute impact. When a Gaming 
 Spikes in Gaming are nearly universal across the category, with almost all channels experiencing at least one spike over time. Unlike many other categories, Gaming also pairs this wide participation with higher typical spike magnitudes. In practice, this means that spikes are both widespread and meaningful for most Gaming creators, not limited to a small top tier.
 </p>
 
+<!-- Simple repeatable block -->
+<h2 class="From attention to interaction: do Gaming viewers engage differently?">Title</h2>
+<p>
+Up to now, we’ve looked at YouTube from a distance:
+<strong>views</strong>, <strong>growth</strong>, <strong>spikes</strong>.
+</p>
+
+<p>
+But community is not just about <strong>how many people show up</strong> :
+it’s about what they do once they’re there.
+</p>
+
+<p>
+Do viewers simply watch and leave? Or do they like, comment, react, and come back?
+</p>
+
+<p>
+To answer this, we move from platform-level dynamics to
+<strong>viewer interaction metrics</strong>,
+and we compare <strong>Gaming</strong> against every other category.
+</p>
+
+<p>
+To make this comparison rigorous, we rely on <strong>non-parametric statistical tests</strong> adapted to the highly skewed and heavy-tailed nature of YouTube data. We first use a <strong>Kruskal–Wallis test</strong> to verify that meaningful differences in engagement exist between categories. Once this is established, we perform <strong>pairwise Mann–Whitney U tests</strong> to compare <strong>Gaming</strong> against every other category, while applying a <strong>Holm–Bonferroni correction</strong> to control for multiple comparisons. These tests are applied to five complementary <strong>interaction metrics</strong>: the <strong>comments per view</strong> ratio (discussion intensity), the <strong>likes per view</strong> ratio (active support), the <strong>dislikes per view</strong> ratio (active rejection), the <strong>appreciation ratio</strong> defined as likes over total reactions, and the <strong>views per subscriber</strong> ratio, which captures how strongly a channel’s audience is anchored in its subscriber base.
+</p>
+
+
 
 
 
