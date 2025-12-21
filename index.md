@@ -509,7 +509,14 @@ Do viewers simply watch and leave? Or do they like, comment, react, and come bac
 To answer this, we move from platform-level dynamics to
 <strong>viewer interaction metrics</strong>,
 and we compare <strong>Gaming</strong> against every other category.
+Because interaction patterns on YouTube are strongly influenced by channel size, we first account for this structural effect before making comparisons.
+Using the number of subscribers, we group channels into <strong>six size-based clusters</strong> with <strong>k-means</strong>,
+so that creators operating in similar audience environments are analyzed together.
+This choice is also motivated by the <strong>scale of the dataset</strong>: with hundreds of thousands of channels,
+a single global analysis would mask important heterogeneity in interaction patterns.
+By clustering, we can compare <strong>interactional behavior</strong> across categories—likes, comments, and reactions—without conflating community effects with simple scale differences.
 </p>
+
 
 <p>
 To make this comparison rigorous, we rely on <strong>non-parametric statistical tests</strong> adapted to the highly skewed and heavy-tailed nature of YouTube data. We first use a <strong>Kruskal–Wallis test</strong> to verify that meaningful differences in engagement exist between categories. Once this is established, we perform <strong>pairwise Mann–Whitney U tests</strong> to compare <strong>Gaming</strong> against every other category, while applying a <strong>Holm–Bonferroni correction</strong> to control for multiple comparisons. These tests are applied to five complementary <strong>interaction metrics</strong>: the <strong>comments per view</strong> ratio (discussion intensity), the <strong>likes per view</strong> ratio (active support), the <strong>dislikes per view</strong> ratio (active rejection), the <strong>appreciation ratio</strong> defined as likes over total reactions, and the <strong>views per subscriber</strong> ratio, which captures how strongly a channel’s audience is anchored in its subscriber base.
