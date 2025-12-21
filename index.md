@@ -595,6 +595,42 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
 
 <!-- Simple repeatable block -->
+<h2 class="simple-title">Cohesion in Gaming Content: Evidence from Top-K Tag Coverage</h2>
+<p>
+  To quantify how <strong>cohesive</strong> each YouTube category is, we use a simple metric called
+  <strong>Top-K tag coverage</strong> (we fixed <strong>K = 20</strong> after manual testing). Within each category, we count how many <strong>distinct videos</strong> contain each tag. We keep the <strong>K most common tags</strong> and compute the share of videos that contain <strong>at least one</strong> of these Top-K tags.
+</p>
+<p>
+  The intuition is straightforward: if a small set of tags covers a large portion of videos, the category likely shares a
+  <strong>common vocabulary</strong> and recurring references—an indicator of <strong>internal cohesion</strong>. Conversely, if Top-K
+  coverage is low, the category is more <strong>heterogeneous</strong>, relying on many niche or fragmented tags. We apply this procedure
+  consistently across our 6 clusters to ensure the signal is not driven by a single batch.
+</p>
+<div class="plotly-block">
+  {% include topk_coverage_heatmap.html%}
+</div>
+
+<p>
+  The <strong>Top-K tag coverage heatmap</strong> shows that <strong>Gaming</strong> consistently achieves
+  <strong>high coverage</strong> across all <strong>subscriber clusters</strong>, meaning that a relatively
+  <strong>small set of tags</strong> is sufficient to describe a <strong>large fraction</strong> of Gaming videos,
+  regardless of channel size. While categories such as <strong>Autos &amp; Vehicles</strong> and <strong>Music</strong>
+  also display relatively strong coverage, <strong>Gaming</strong> remains <strong>slightly more stable</strong> across clusters
+  and <strong>outperforms most other categories</strong>, where coverage fluctuates more strongly and suggests
+  <strong>fragmented vocabularies</strong>. This pattern points to a <strong>shared</strong> and
+  <strong>well-established tag vocabulary</strong>, driven by recurring <strong>game titles</strong>,
+  <strong>genres</strong>, <strong>mechanics</strong>, and <strong>community-specific references</strong>.
+  From a structural perspective, this makes Gaming a <strong>highly cohesive</strong>,
+  <strong>community-like category</strong>, where <strong>thematic alignment</strong> and
+  <strong>common references</strong> reinforce <strong>collective identity</strong> and
+  <strong>content discoverability</strong>.
+</p>
+
+
+
+
+
+<!-- Simple repeatable block -->
 <h2 class="simple-title">Title</h2>
 <p>Paragraph 1.</p>
 <p>Paragraph 2.</p>
