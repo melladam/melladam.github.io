@@ -606,9 +606,12 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   coverage is low, the category is more <strong>heterogeneous</strong>, relying on many niche or fragmented tags. We apply this procedure
   consistently across our 6 clusters to ensure the signal is not driven by a single batch.
 </p>
+
+{% raw %}
 <div class="plotly-block">
   {% include topk_coverage_heatmap.html %}
 </div>
+{% endraw %}
 
 <p>
   The <strong>Top-K tag coverage heatmap</strong> shows that <strong>Gaming</strong> consistently achieves
