@@ -607,9 +607,9 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   consistently across our 6 clusters to ensure the signal is not driven by a single batch.
 </p>
 
-<div class="plotly-block">
-  {% include topk_coverage_heatmap.html%}
-</div>
+<img src="/assets/img/newplot.png"
+       alt="heatmap"
+       style="width:100%;">
 
 <p>
   The <strong>Top-K tag coverage heatmap</strong> shows that <strong>Gaming</strong> consistently achieves
