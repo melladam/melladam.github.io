@@ -892,8 +892,7 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   So far, Gaming has performed better than many categories on several dimensions:
   it sustains growth over time, shows frequent and widely shared spikes, turns views into comments and likes more consistently,
   and keeps a cohesive “vocabulary” through recurring tags.
-  But community is not only about how people interact with <strong>videos</strong>.
-  It is also about how people move <strong>between creators</strong> — whether the same viewers show up across multiple channels,
+  However, community is not only about how people interact with <strong>videos</strong>, but it is also mainely about how people move <strong>between creators</strong> : whether the same viewers show up across multiple channels,
   forming a shared space rather than isolated fanbases.
 </p>
 
