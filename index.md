@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Is the Gaming community the best community on YouTube ?
+title: Is the Gaming community the best community on YouTube?
 subtitle: 
 cover-img: /assets/img/background_picture.png
 cover-img-opacity: 0.35
@@ -86,7 +86,7 @@ cover-img-opacity: 0.35
 </div>
 
 <p>
-For many of us, growing up meant spending hours on YouTube watching gaming videos : learning strategies, sharing jokes, celebrating wins, and venting frustration together. These weren’t just videos. They were shared experiences. Viewers weren’t passive spectators; they were active participants in a space that felt welcoming and familiar.
+For many of us, growing up meant spending hours on YouTube watching gaming videos: learning strategies, sharing jokes, celebrating wins, and venting frustration together. These weren’t just videos. They were shared experiences. Viewers weren’t passive spectators; they were active participants in a space that felt welcoming and familiar.
 </p>
 
 <p>
@@ -168,22 +168,22 @@ Today, with access to data and analytical tools, we can move beyond personal mem
     <h2>Research Questions</h2>
     <ul>
       <li>
-        Are there real differences in the users' interactions with videos between categories ? What kind ?
+        Are there real differences in the users' interactions with videos between categories? What kind?
       </li>
       <li>
-        Are there real differences in the users' interactions with channels between cateogries ? What kind ?
+        Are there real differences in the users' interactions with channels between categories? What kind?
       </li>
       <li>
-        Are there categories' communities that are tighter than others ? How so ?
+        Are there categories' communities that are tighter than others? How so?
       </li>
       <li>
-        Are there categories that are more dynamic than others ? How so ?
+        Are there categories that are more dynamic than others? How so?
       </li>
       <li>
-       Is it possible to identify one or different cultures, as well as their importance, emanating from those categories ?
+       Is it possible to identify one or different cultures, as well as their importance, emanating from those categories?
       </li>
       <li>
-      Is it possible to identify and quantify the communities within the categories ?
+      Is it possible to identify and quantify the communities within the categories?
       </li>
     </ul>
   </div>
@@ -297,7 +297,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
   <div class="solution-card">
     <p class="solution-lead">
-      Up to now, we’ve been talking about a feeling : that sense that Gaming on YouTube was
+      Up to now, we’ve been talking about a feeling: that sense that Gaming on YouTube was
       <span class="solution-highlight">more than content</span>.
       But nostalgia isn’t proof. So we decided to do what we couldn’t do as kids:
       step back, and test it with real evidence.
@@ -366,7 +366,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   how many new views and subscribers appear each quarter (rather than a single total snapshot).
 </p>
 <p>
-  <em>Data note:</em> Youniverse gives us these time series, but coverage is limited to <strong>2015–2019</strong>
+  <em>Data note:</em> YouNiverse gives us these time series, but coverage is limited to <strong>2015–2019</strong>
   and only includes <strong>English-language</strong> channels with at least <strong>&gt;10k subscribers</strong> and
   <strong>&gt;10 videos</strong>.
 </p>
@@ -466,7 +466,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   <strong>within-channel baselines</strong> (spike detection using rolling medians),
   <strong>ratio-based engagement metrics</strong> (comments/view, likes/view, appreciation),
   and <strong>fair comparisons within subscriber-size clusters</strong>.
-  This lets us study community structure and interaction patterns without conflating them with dataset growth.
+  This lets us study community structure and interaction patterns without conflating these effects with dataset growth.
 </p>
 
 
@@ -477,7 +477,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   Quarter after quarter, Gaming keeps adding audience attention.
 </p>
 <p>
-  This is a strong signal that Gaming isn’t just popular : it’s <strong>durable</strong>.
+  This is a strong signal that Gaming isn’t just popular: it’s <strong>durable</strong>.
   Even when the number of uploaded videos fluctuates, the category keeps generating new views
   and keeps pulling new subscribers.
 </p>
@@ -493,7 +493,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
 <!-- SIMPLE BLOCK 4 -->
 <p>
-  The graph illustrate that Gaming is <strong>reactive</strong> (as it spikes) and <strong>stable</strong> (as it keeps growing).
+  The graph illustrates that Gaming is <strong>reactive</strong> (as it spikes) and <strong>stable</strong> (as it keeps growing).
 </p>
 <p>
   <strong>Views climb sharply over time:</strong> instead of a slow, flat progression, the curve rises quickly,
@@ -760,7 +760,7 @@ Spikes in Gaming are nearly universal across the category, with almost all chann
 <p>
 Up to now, we’ve looked at YouTube from a distance:
 <strong>views</strong>, <strong>growth</strong>, <strong>spikes</strong>.
-But community is not just about <strong>how many people show up</strong> :
+But community is not just about <strong>how many people show up</strong>:
 it’s about what they do once they’re there.
 </p>
 
@@ -852,7 +852,7 @@ This suggests that Gaming communities are not closed or insular, but rather
 </p>
 
 <p>
-These results show that Gaming does not just capture attention :
+These results show that Gaming does not just capture attention:
 it more reliably <strong>turns views into interaction</strong>,
 confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
@@ -861,11 +861,11 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 <h2 class="simple-title">Cohesion in Gaming Content: Evidence from Top-K Tag Coverage</h2>
 <p>
   To quantify how <strong>cohesive</strong> each YouTube category is, we use a simple metric called
-  <strong>Top-K tag coverage</strong> (we fixed <strong>K = 20</strong> after manual testing). Within each category, we count how many <strong>distinct videos</strong> contain each tag. We keep the <strong>K most common tags</strong> and compute the share of videos that contain <strong>at least one</strong> of these Top-K tags.
+  <strong>Top-K tag coverage</strong> (we fixed K=20, it is a trade-off: after testing, we realized that it is small enough to represent shared vocabulary, large enough not to collapse diverse categories). Within each category, we count how many <strong>distinct videos</strong> contain each tag. We keep the <strong>K most common tags</strong> and compute the share of videos that contain <strong>at least one</strong> of these Top-K tags.
 </p>
 <p>
   The intuition is straightforward: if a small set of tags covers a large portion of videos, the category likely shares a
-  <strong>common vocabulary</strong> and recurring references : an indicator of <strong>internal cohesion</strong>. Conversely, if Top-K
+  <strong>common vocabulary</strong> and recurring references: an indicator of <strong>internal cohesion</strong>. Conversely, if Top-K
   coverage is low, the category is more <strong>heterogeneous</strong>, relying on many niche or fragmented tags. We apply this procedure
   consistently across our 6 clusters to ensure the signal is not driven by a single batch.
 </p>
@@ -892,16 +892,15 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   So far, Gaming has performed better than many categories on several dimensions:
   it sustains growth over time, shows frequent and widely shared spikes, turns views into comments and likes more consistently,
   and keeps a cohesive “vocabulary” through recurring tags.
-  However, community is not only about how people interact with <strong>videos</strong>, but it is also mainely about how people move <strong>between creators</strong> : whether the same viewers show up across multiple channels,
+  However, community is not only about how people interact with <strong>videos</strong>, but it is also mainly about how people move <strong>between creators</strong> : whether the same viewers show up across multiple channels,
   forming a shared space rather than isolated fanbases.
 </p>
 
 <p>
   To capture that, we built a comment-based network from the <strong>link tables</strong>.
-  Each channel is a node, and two channels are connected when they share commenters
-  (the more shared commenters, the stronger the link).
+  Each channel is a node, and two channels are connected if they share commenters (the more shared commenters, the stronger the link).
 
-  We then test whether channels in the same category are more likely to have more links compared the number of links for channels
+  We then test whether channels in the same category are more likely to have more links, and we compared the number of links for channels
   not in the same category.
 </p>
 
@@ -948,7 +947,7 @@ It indicates that Gaming audiences circulate more intensely within the category
 than across categories. At the same time, Gaming maintains slightly stronger links with a small set of nearby
 genres, such as <strong>Comedy</strong> and <strong>Pets &amp; Animals</strong>, while remaining connected to more distant
 categories. Overall, this suggests a community that is at the same time <strong>internally cohesive</strong> and
-sightly more diffused across Youtube than other categories.
+slightly more diffused across Youtube than other categories.
 
 </p>
 
@@ -956,7 +955,9 @@ sightly more diffused across Youtube than other categories.
 
 <h2 class="simple-title">Conclusion</h2>
 <p>
-Taken together, these results suggest that “community strength” on YouTube is not a binary label but a spectrum. Many categories share broadly similar patterns-differences can be subtle because large parts of YouTube overlap and the underlying distributions are heavily skewed. Still, across multiple independent signals (engagement ratios, spike participation, tag cohesion, and comment-based channel networks), <strong>Gaming consistently appears near the top</strong>, often alongside a small group of strong categories. Even when the gaps are narrow, the fact that Gaming ranks highly across several complementary metrics supports the idea that it is not only popular, but also unusually good at turning attention into interaction and sustaining a cohesive audience ecosystem at scale.
+Taken together, these results suggest that “community strength” on YouTube is not a binary label but a spectrum. Many categories share broadly similar patterns-differences can be subtle because large parts of YouTube overlap and the underlying distributions are heavily skewed. Still, across multiple independent signals (engagement ratios, spike participation, tag cohesion, and comment-based channel networks), <strong>Gaming consistently appears near the top</strong>, often alongside a small group of strong categories. Even when the gaps are narrow, the fact that Gaming ranks highly across several complementary metrics supports the idea that it is not only popular, but also unusually good at turning attention into interaction and sustaining a cohesive audience ecosystem at scale. 
+To answer our main question, we cannot strictly claim that Gaming is the “best” community, because “best” depends on what we choose to value: discussion intensity, loyalty, cohesion, growth, or cultural influence. However, what our results do allow us to say with confidence is that Gaming is statistically distinct: across several independent and robust measures, it repeatedly ranks among the strongest categories, and the differences we observe are not just anecdotal : they are supported by significance-tested comparisons and consistent patterns across scale groups. In that sense, Gaming stands out not as a myth, but as one of YouTube’s most reliably community-driven ecosystems.
+
 </p>
 
 
