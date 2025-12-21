@@ -421,7 +421,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
     <img src="/assets/img/3.1.1.png"
          alt="Average delta views per channel vs dataset sample size over time">
     <p class="bias-caption">
-      <b>What this shows:</b> as the dataset sample size (number of channels) expands, the
+      As the dataset sample size (number of channels) expands, the
       <strong>average delta views per channel</strong> rises too.
       The parallel upward trends suggest that “growth over time” is partly confounded by changing coverage.
     </p>
@@ -432,7 +432,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
     <img src="/assets/img/3.1.2.png"
          alt="Correlation between dataset sample size and average delta views">
     <p class="bias-caption">
-      <b>Why it matters:</b> the strong relationship between <strong>sample size</strong> and
+      The strong relationship between <strong>sample size</strong> and
       <strong>avg delta views</strong> indicates a composition effect:
       when more channels are included, the measured “average performance” increases.
       So absolute trend levels should be treated as <em>descriptive</em>, not causal.
@@ -454,7 +454,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
     <img src="/assets/img/3.3.4.png"
          alt="Correlation between dataset sample size and average subscribers">
     <p class="bias-caption">
-      <b>Interpretation:</b> this supports the idea that “bigger sample” ≈ “bigger channels”.
+      This supports the idea that “bigger sample” ≈ “bigger channels”.
       That’s exactly why we avoid over-interpreting upward time trends as pure community growth.
     </p>
   </div>
@@ -462,7 +462,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </div>
 
 <p>
-  <strong>What we do about it:</strong> from this point onward, we focus on analyses that are more robust to sample expansion:
+  From this point onward, we focus on analyses that are more robust to sample expansion:
   <strong>within-channel baselines</strong> (spike detection using rolling medians),
   <strong>ratio-based engagement metrics</strong> (comments/view, likes/view, appreciation),
   and <strong>fair comparisons within subscriber-size clusters</strong>.
