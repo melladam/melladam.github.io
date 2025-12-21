@@ -86,11 +86,11 @@ cover-img-opacity: 0.35
 </div>
 
 <p>
-For many of us, growing up meant spending hours on YouTube watching gaming videos — learning strategies, sharing jokes, celebrating wins, and venting frustration together. These weren’t just videos. They were shared experiences. Viewers weren’t passive spectators; they were active participants in a space that felt welcoming and familiar.
+For many of us, growing up meant spending hours on YouTube watching gaming videos : learning strategies, sharing jokes, celebrating wins, and venting frustration together. These weren’t just videos. They were shared experiences. Viewers weren’t passive spectators; they were active participants in a space that felt welcoming and familiar.
 </p>
 
 <p>
-Gaming content didn’t just entertain. It connected people. It created communities that felt real, supportive, and alive — even through a screen.
+Gaming content didn’t just entertain. It connected people. It created communities that felt real, supportive, and alive, even through a screen.
 </p>
 
 <p style="font-weight:700; font-size:1.15rem; color:#4A2B6B;">
@@ -347,7 +347,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 <p>
   The donut charts below show the share of total <strong>views</strong>, <strong>subscribers</strong>, and <strong>channels</strong>
   across categories (2015–2019). And the takeaway is clear:
-  <span class="solution-highlight">Gaming sits among the biggest categories on the platform</span>. It’s indeed a major part of YouTube’s ecosystem — with a large audience, a large creator base,
+  <span class="solution-highlight">Gaming sits among the biggest categories on the platform</span>. It’s indeed a major part of YouTube’s ecosystem, with a large audience, a large creator base,
   and a strong ability to attract subscribers.
 </p>
 
@@ -514,7 +514,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 </p>
 <p>
   Now that we have the <strong>big picture</strong>, we can zoom in and <strong>compare categories</strong> by looking at how their
-  time series evolve—i.e., how their deltas rise, fall, or stabilize over time.
+  time series evolve (how their deltas rise, fall, or stabilize over time).
 </p>
 
 
@@ -713,7 +713,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
 
 <p>
   Once we’ve seen <em>how concentrated</em> spike weeks are, the next step is to measure <strong>how intense</strong> those spikes get.
-  In other words: when a category surges, is it a small bump—or a massive jump?
+  In other words: when a category surges, is it a small bump, or a massive jump?
 </p>
 <p>
   To answer that, we switch from a category-wide view to a <strong>channel-level</strong> spike detector: for every channel, we estimate
@@ -722,7 +722,7 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   channel’s recent baseline, not to its early 2015 numbers. A week is then labeled a spike when its <code>delta_views</code> is at least
   <strong>2×</strong> the rolling median. Finally, we aggregate all detected spikes back up to the <strong>category</strong> level to
   summarize the distribution of spike magnitudes (median, percentiles, max) and the overall “spike impact” in absolute views.
-  The results below show which categories have the most intense spikes—and which ones grow in a steadier, less bursty way.
+  The results below show which categories have the most intense spikes, and which ones grow in a steadier, less bursty way.
 </p>
 
 <div class="plotly-block">
@@ -777,7 +777,7 @@ Using the number of subscribers, we group channels into <strong>six size-based c
 so that creators operating in similar audience environments are analyzed together.
 This choice is also motivated by the <strong>scale of the dataset</strong>: with hundreds of thousands of channels,
 a single global analysis would mask important heterogeneity in interaction patterns.
-By clustering, we can compare <strong>interactional behavior</strong> across categories—likes, comments, and reactions—without conflating community effects with simple scale differences.
+By clustering, we can compare <strong>interactional behavior</strong> across categories—likes, comments, and reactions, without conflating community effects with simple scale differences.
 </p>
 
 
@@ -865,7 +865,7 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
 <p>
   The intuition is straightforward: if a small set of tags covers a large portion of videos, the category likely shares a
-  <strong>common vocabulary</strong> and recurring references—an indicator of <strong>internal cohesion</strong>. Conversely, if Top-K
+  <strong>common vocabulary</strong> and recurring references : an indicator of <strong>internal cohesion</strong>. Conversely, if Top-K
   coverage is low, the category is more <strong>heterogeneous</strong>, relying on many niche or fragmented tags. We apply this procedure
   consistently across our 6 clusters to ensure the signal is not driven by a single batch.
 </p>
@@ -951,7 +951,7 @@ correspond to real, structured communities rather than arbitrary labels.
 
 <h2 class="simple-title">Conclusion</h2>
 <p>
-Taken together, these results suggest that “community strength” on YouTube is not a binary label but a spectrum. Many categories share broadly similar patterns—differences can be subtle because large parts of YouTube overlap and the underlying distributions are heavily skewed. Still, across multiple independent signals (engagement ratios, spike participation, tag cohesion, and comment-based channel networks), <strong>Gaming consistently appears near the top</strong>, often alongside a small group of strong categories. Even when the gaps are narrow, the fact that Gaming ranks highly across several complementary metrics supports the idea that it is not only popular, but also unusually good at turning attention into interaction and sustaining a cohesive audience ecosystem at scale.
+Taken together, these results suggest that “community strength” on YouTube is not a binary label but a spectrum. Many categories share broadly similar patterns-differences can be subtle because large parts of YouTube overlap and the underlying distributions are heavily skewed. Still, across multiple independent signals (engagement ratios, spike participation, tag cohesion, and comment-based channel networks), <strong>Gaming consistently appears near the top</strong>, often alongside a small group of strong categories. Even when the gaps are narrow, the fact that Gaming ranks highly across several complementary metrics supports the idea that it is not only popular, but also unusually good at turning attention into interaction and sustaining a cohesive audience ecosystem at scale.
 </p>
 
 
