@@ -907,6 +907,10 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
 
 
+<img src="/assets/img/links_within_category.png"
+       alt="heatmap"
+       style="width:100%;">
+       
 
 
 
