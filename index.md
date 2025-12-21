@@ -523,7 +523,7 @@ To make this comparison rigorous, we rely on <strong>non-parametric statistical 
 </p>
 
 <!-- Row 1 -->
-<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+<div style="max-width:1000px; margin:30px auto; display:flex; gap:20px;">
   <img src="/assets/img/group_0_HMC.png"
        alt="Heatmap Group 0"
        style="width:50%;">
@@ -533,7 +533,7 @@ To make this comparison rigorous, we rely on <strong>non-parametric statistical 
 </div>
 
 <!-- Row 2 -->
-<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+<div style="max-width:1000px; margin:30px auto; display:flex; gap:20px;">
   <img src="/assets/img/group_2_HMC.png"
        alt="Heatmap Group 2"
        style="width:50%;">
@@ -543,7 +543,7 @@ To make this comparison rigorous, we rely on <strong>non-parametric statistical 
 </div>
 
 <!-- Row 3 -->
-<div style="max-width:700px; margin:30px auto; display:flex; gap:20px;">
+<div style="max-width:1000px; margin:30px auto; display:flex; gap:20px;">
   <img src="/assets/img/group_4_HMC.png"
        alt="Heatmap Group 4"
        style="width:50%;">
