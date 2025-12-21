@@ -607,7 +607,7 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   consistently across our 6 clusters to ensure the signal is not driven by a single batch.
 </p>
 <div class="plotly-block">
-  {% include topk_coverage_heatmap.html%}
+  {% include topk_coverage_heatmap.html %}
 </div>
 
 <p>
