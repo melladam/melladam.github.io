@@ -886,46 +886,30 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
      alt="heatmap"
      style="width:60%; display:block; margin:30px auto;">
 
+<h2 class="simple-title">Community interactions: when audiences connect creators</h2>
+
+<p>
+  So far, Gaming has performed better than many categories on several dimensions:
+  it sustains growth over time, shows frequent and widely shared spikes, turns views into comments and likes more consistently,
+  and keeps a cohesive “vocabulary” through recurring tags.
+  But community is not only about how people interact with <strong>videos</strong>.
+  It is also about how people move <strong>between creators</strong> — whether the same viewers show up across multiple channels,
+  forming a shared space rather than isolated fanbases.
+</p>
+
+<p>
+  To capture that, we built a comment-based network from the <strong>link tables</strong>.
+  Each channel is a node, and two channels are connected when they share commenters
+  (the more shared commenters, the stronger the link).
+  We then compare <strong>within-category</strong> link strengths across YouTube categories using
+  <strong>non-parametric statistical tests</strong>, since these link counts are extremely skewed and heavy-tailed.
+  The global <strong>Kruskal–Wallis</strong> result strongly rejects the idea that all categories behave similarly:
+  <strong>some categories are structurally more “community-like” than others</strong>, with much tighter internal audience overlap.
+</p>
 
 
-<!-- Simple repeatable block -->
-<h2 class="simple-title">Title</h2>
-<p>Paragraph 1.</p>
-<p>Paragraph 2.</p>
-<p>Paragraph 3.</p>
 
-<!-- Simple repeatable block -->
-<h2 class="simple-title">Title</h2>
-<p>Paragraph 1.</p>
-<p>Paragraph 2.</p>
 
-<ul class="simple-list">
-  <li>Bullet 1</li>
-  <li>Bullet 2</li>
-  <li>Bullet 3</li>
-</ul>
-<p>Paragraph 3.</p>
-
-<h2 class="simple-title">Title</h2>
-<p>Paragraph 1.</p>
-<p>Paragraph 2.</p>
-<p>Paragraph 3.</p>
-
-<h2 class="simple-title">Title</h2>
-<p>Paragraph 1.</p>
-<p>Paragraph 2.</p>
-<p>Paragraph 3.</p>
-
-<h2 class="simple-title">Title</h2>
-<p>Paragraph 1.</p>
-<p>Paragraph 2.</p>
-
-<ul class="simple-list">
-  <li>Bullet 1</li>
-  <li>Bullet 2</li>
-  <li>Bullet 3</li>
-</ul>
-<p>Paragraph 3.</p>
 
 <style>
   .plotly-block{
