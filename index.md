@@ -900,10 +900,9 @@ confirming its role as one of the most socially engaged ecosystems on YouTube.
   To capture that, we built a comment-based network from the <strong>link tables</strong>.
   Each channel is a node, and two channels are connected when they share commenters
   (the more shared commenters, the stronger the link).
-  We then compare <strong>within-category</strong> link strengths across YouTube categories using
-  <strong>non-parametric statistical tests</strong>, since these link counts are extremely skewed and heavy-tailed.
-  The global <strong>Kruskal–Wallis</strong> result strongly rejects the idea that all categories behave similarly:
-  <strong>some categories are structurally more “community-like” than others</strong>, with much tighter internal audience overlap.
+
+  We then test whether channels in the same category are more likely to have more links compared the number of links for channels
+  not in the same category.
 </p>
 
 <img src="/assets/img/links_same_vs_diff_hist.png"
@@ -925,7 +924,12 @@ correspond to real, structured communities rather than arbitrary labels.
        style="width:100%;">
        
 <p>
-This figure summarizes the distribution of <strong>within-category link counts</strong>, measuring how often the same users comment across pairs of channels belonging to the same category. Because these link counts are extremely skewed, we use a logarithmic scale and compare full distributions rather than averages. The global Kruskal–Wallis test confirms that categories differ significantly in their internal audience overlap. Visually, Gaming stands among the categories with the highest <em>typical</em> link strength (it is indeed the 2nd, after Comedy): its median within-category overlap is clearly above many others, and its distribution remains elevated across a wide range of values. This indicates that Gaming audiences frequently circulate between multiple creators within the category, rather than concentrating on isolated channels. In contrast, categories with lower medians and tighter distributions exhibit more fragmented or creator-specific audiences. Overall, the pattern supports the idea that Gaming is not only large and active, but also structurally cohesive at the level of shared audience participation.
+We then compare <strong>within-category</strong> link strengths across YouTube categories using
+<strong>non-parametric statistical tests</strong>, since these link counts are extremely skewed and heavy-tailed.
+The global <strong>Kruskal–Wallis</strong> result strongly rejects the idea that all categories behave similarly:
+<strong>some categories are structurally more “community-like” than others</strong>, with much tighter internal audience overlap.
+
+The figure above summarizes the distribution of <strong>within-category link counts</strong>, measuring how often the same users comment across pairs of channels belonging to the same category. Because these link counts are extremely skewed, we use a logarithmic scale and compare full distributions rather than averages. The global Kruskal–Wallis test confirms that categories differ significantly in their internal audience overlap. Visually, Gaming stands among the categories with the highest <em>typical</em> link strength (it is indeed the 2nd, after Comedy): its median within-category overlap is clearly above many others, and its distribution remains elevated across a wide range of values. This indicates that Gaming audiences frequently circulate between multiple creators within the category, rather than concentrating on isolated channels. In contrast, categories with lower medians and tighter distributions exhibit more fragmented or creator-specific audiences. Overall, the pattern supports the idea that Gaming is not only large and active, but also structurally cohesive at the level of shared audience participation.
 </p>
 
 <img src="/assets/img/links_category_heatmap.png"
