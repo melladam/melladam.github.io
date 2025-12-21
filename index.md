@@ -547,14 +547,8 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   }
 </style>
 
-<div class="table-card">
   <img src="/assets/img/4.2.png"
        alt="Category rankings by year for subs, videos and views">
-  <p class="table-caption">
-    <strong>How to read:</strong> lower rank = better performance that year.
-    This helps us separate “Gaming grew” from “Gaming grew faster than other categories”.
-  </p>
-</div>
 
 <p>
   With that relative context in mind, we now zoom into <strong>spikes</strong> to compare categories more fairly,
