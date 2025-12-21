@@ -582,7 +582,7 @@ This suggests that Gaming communities are not closed or insular, but rather
 </p>
 
 <p>
-Overall, these results show that Gaming does not just capture attention —
+These results show that Gaming does not just capture attention :
 it more reliably <strong>turns views into interaction</strong>,
 confirming its role as one of the most socially engaged ecosystems on YouTube.
 </p>
