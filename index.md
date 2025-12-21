@@ -371,6 +371,105 @@ Today, with access to data and analytical tools, we can move beyond personal mem
   <strong>&gt;10 videos</strong>.
 </p>
 
+<h2 class="simple-title">A quick methodological warning: dataset composition changes over time</h2>
+
+<p>
+  Before interpreting growth curves, we need one sanity check: the dataset is not “static” across time.
+  In YouNiverse, the number of channels covered increases sharply, and this expansion is strongly aligned
+  with increases in average performance metrics (views/subscribers). This creates a <strong>sampling/composition bias</strong>:
+  part of the observed growth may reflect <em>which channels enter the sample</em>, not only real changes in behavior.
+</p>
+
+<style>
+  .bias-grid{
+    max-width: 1000px;
+    margin: 22px auto 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    align-items: start;
+  }
+  .bias-card{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 0px;
+    padding: 12px 12px 10px 12px;
+    background: rgba(255,255,255,0.02);
+  }
+  .bias-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .bias-caption{
+    margin: 10px 2px 0 2px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    opacity: 0.95;
+  }
+  .bias-caption b{
+    color: #4A2B6B;
+  }
+  @media (max-width: 800px){
+    .bias-grid{ grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="bias-grid">
+
+  <!-- Plot 1: Dual-axis timeseries -->
+  <div class="bias-card">
+    <img src="/assets/img/3.1.1.png"
+         alt="Average delta views per channel vs dataset sample size over time">
+    <p class="bias-caption">
+      <b>What this shows:</b> as the dataset sample size (number of channels) expands, the
+      <strong>average delta views per channel</strong> rises too.
+      The parallel upward trends suggest that “growth over time” is partly confounded by changing coverage.
+    </p>
+  </div>
+
+  <!-- Plot 2: Correlation scatter (views) -->
+  <div class="bias-card">
+    <img src="/assets/img/3.1.2.png"
+         alt="Correlation between dataset sample size and average delta views">
+    <p class="bias-caption">
+      <b>Why it matters:</b> the strong relationship between <strong>sample size</strong> and
+      <strong>avg delta views</strong> indicates a composition effect:
+      when more channels are included, the measured “average performance” increases.
+      So absolute trend levels should be treated as <em>descriptive</em>, not causal.
+    </p>
+  </div>
+
+  <!-- Plot 3: Dual-axis timeseries (subscribers) -->
+  <div class="bias-card">
+    <img src="/assets/img/3.3.3.png"
+         alt="Average total subscribers per channel vs dataset sample size over time">
+    <p class="bias-caption">
+      <b>Same pattern with subscribers:</b> the average subscriber count per channel also rises with sample expansion,
+      reinforcing that the dataset progressively captures <strong>larger / more established channels</strong> over time.
+    </p>
+  </div>
+
+  <!-- Plot 4: Correlation scatter (subscribers) -->
+  <div class="bias-card">
+    <img src="/assets/img/3.3.4.png"
+         alt="Correlation between dataset sample size and average subscribers">
+    <p class="bias-caption">
+      <b>Interpretation:</b> this supports the idea that “bigger sample” ≈ “bigger channels”.
+      That’s exactly why we avoid over-interpreting upward time trends as pure community growth.
+    </p>
+  </div>
+
+</div>
+
+<p>
+  <strong>What we do about it:</strong> from this point onward, we focus on analyses that are more robust to sample expansion:
+  <strong>within-channel baselines</strong> (spike detection using rolling medians),
+  <strong>ratio-based engagement metrics</strong> (comments/view, likes/view, appreciation),
+  and <strong>fair comparisons within subscriber-size clusters</strong>.
+  This lets us study community structure and interaction patterns without conflating them with dataset growth.
+</p>
+
+
 <!-- SIMPLE BLOCK 3 -->
 <h2 class="simple-title">Gaming in delta: subscribers and views keep moving up</h2>
 <p>
